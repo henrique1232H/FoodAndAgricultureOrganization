@@ -1,0 +1,88 @@
+.containerAnimals {
+    background: #E5FAFF;
+}
+
+.background {
+    background-image: url("../../assets/svg/background.svg");
+    width: 100%;
+    padding: 12rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.background h2 {
+    margin-top: 20rem;
+}
+
+.gridAnimals {
+    margin-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    
+}
+
+.gridAnimals div {
+    height: 60vh;
+    padding: 4rem 4rem;
+  
+}
+
+.border {
+    --bs-border-width: 0px;
+}
+
+
+.gridAnimals div:nth-child(2) {
+    border-right:  3px dashed #153C52;
+}
+
+.gridAnimals div:nth-child(4) {
+    border-left:  3px dashed #153C52;
+}
+
+
+
+.gridAnimals div h3 {
+    font-size: 2rem;
+    color: #153C52;
+    text-align: center;
+}
+
+.gridAnimals div:nth-child(1) img {
+    margin: 2rem 0;
+
+}
+
+.gridAnimals div:nth-child(3) img {
+    margin: 3.7rem 0;
+
+}
+
+.gridAnimals div:nth-child(5) img {
+    margin: 2.7rem 0;
+
+}
+
+
+
+.gridAnimals div p {
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+
+.containerAnimals h2 {
+    font-size: 2.5rem;
+    color: #153C52;
+    text-align: center;
+}
+
+a {
+    color: #153C52;
+    text-decoration: none;
+}

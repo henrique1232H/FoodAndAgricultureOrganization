@@ -1,0 +1,16 @@
+.Menu {
+    position: absolute;
+    height: 8vh;
+    width: 100%;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    align-items: center;
+    box-shadow: 1px 1px 5px 2px #000;
+}
+
+.Menu img {
+    height: 5vh;
+}

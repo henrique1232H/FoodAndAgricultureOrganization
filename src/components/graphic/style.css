@@ -1,0 +1,96 @@
+.containerGraphic {
+    background: #E5FAFF;
+    display: flex;
+    padding: 2rem 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+.flexGraphic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+}
+
+
+.flexGraphic .h2Consert h2 {
+    color: #153C52;
+    margin-bottom: 4rem;
+    width: 60%;
+
+}
+
+.flexGraphic .h2Consert p {
+    margin-top: 4rem;
+    padding-left: 4rem;
+}
+
+
+.flexGraphic h2 {
+    color: #153C52;
+    margin-bottom: 4rem;
+
+}
+
+.flexGraphic div:nth-child(2) {
+    justify-content: flex-start;
+}
+
+.flexGraphic div:nth-child(2) p {
+    justify-content: flex-start;
+}
+
+
+.h2Consert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.flexGraphic p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.flexGraphic .align {
+    display: flex;
+    margin: 2rem auto;
+}
+.margin {
+    margin-top: 10rem;
+
+    gap: 5rem;
+}
+
+.margin p {
+    width: 88%;
+}
+
+.orientacao {
+    margin-top: 10rem;
+}
+
+.marginLeft {
+    margin-left: 5rem;
+}
+
+.orientacao h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.marginTop {
+    margin-top: 1rem;
+}

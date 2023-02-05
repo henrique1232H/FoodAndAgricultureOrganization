@@ -1,0 +1,17 @@
+
+.caracteristicas {
+    background: #E5FAFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselItem {
+    height: 75vh;
+}
+
+
+.carouselItem figcaption p {
+    font-size: 1.3rem;
+}

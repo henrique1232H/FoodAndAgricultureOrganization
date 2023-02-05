@@ -1,0 +1,98 @@
+.blur {
+    width: 105%;
+    height: 10vh;
+    position: absolute;
+    left: -2rem;
+    top: 62rem;
+    background: #E5FAFE;
+    filter: blur(11px);
+}
+
+
+.textWater {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textWater h1 {
+    color: #24526B;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+.sectionWater {
+    
+    background: #E5FAFE;
+}
+
+.textWater p {
+    margin-top: 2rem;
+    display: block;
+    width: 70%;
+    height: 171px;
+    text-align: center;
+    color: #5d96b587;
+    font-size: 3rem;
+    line-height: 4.7rem;
+}
+
+.flexWater {
+    display: grid;
+    grid-template-columns: 2fr 12px 2fr;
+    padding: 0rem 10rem;
+
+    gap: 10rem;
+    border-right: red;
+}
+
+.flexWater h3 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+    text-align: center;
+    color: #24526B;
+}
+.flexWater .flex-1, .flex-3 {
+
+    padding-top: 4rem;
+}
+.flexWater p {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem ;
+    text-align: justify;
+}
+
+.flex-1 p {
+    padding-top: 1rem;
+}
+
+.flexWater .spacing {
+    height: 100vh;
+    width: 0.2rem;
+    background: gray;
+}
+
+
+p {
+    color: #153C52;
+}
+
+.flex-3 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.01rem;
+    border: 4px solid #153C52;
+    border-radius: 1rem;
+
+    
+}
+
+.weight {
+    font-weight: 800;
+}

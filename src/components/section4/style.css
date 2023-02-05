@@ -1,0 +1,24 @@
+.containerFour {
+    background: #E5FAFF;
+    padding: 15rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFour h2 {
+    text-align: center;
+    width: 60%;
+}
+
+
+ul li {
+    font-size: 1.6rem;
+    color: #153C52;
+    margin-left: 2rem;
+}
+
+.center {
+    text-align: center;
+}
