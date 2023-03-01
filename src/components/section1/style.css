@@ -1,33 +1,23 @@
-.blur {
-    width: 105%;
-    height: 10vh;
-    position: absolute;
-    left: -2rem;
-    top: 62rem;
-    background: #E5FAFE;
-    filter: blur(11px);
-}
 
 
 .textWater {
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    height: 20vh;
+
+
 }
 
 .textWater h1 {
+    width: 84%;
     color: #24526B;
-    font-size: 5rem;
-    font-weight: 900;
-    margin-bottom: 0.5rem;
+    font-size: 4rem;
+    font-weight: 400;
 }
 
-.sectionWater {
-    
-    background: #E5FAFE;
-}
 
 .textWater p {
     margin-top: 2rem;
@@ -41,22 +31,18 @@
 }
 
 .flexWater {
-    display: grid;
-    grid-template-columns: 2fr 12px 2fr;
-    padding: 0rem 10rem;
-
+  
+    padding: 5rem 10rem;
     gap: 10rem;
-    border-right: red;
 }
 
 .flexWater h3 {
     font-weight: 900;
     font-size: 2.5rem;
     line-height: 2.9rem;
-    text-align: center;
     color: #24526B;
 }
-.flexWater .flex-1, .flex-3 {
+.flexWater .flex-1 {
 
     padding-top: 4rem;
 }
@@ -82,7 +68,15 @@ p {
     color: #153C52;
 }
 
-.flex-3 img {
+.flex-row {
+    display: flex;
+}
+
+.flex-row div:nth-child(2) {
+    padding-left: 3rem;
+}
+
+.flex-2 img {
     display: block;
     margin: 0 auto;
     margin-top: 1rem;
@@ -95,4 +89,17 @@ p {
 
 .weight {
     font-weight: 800;
+}
+
+@media (max-width: 50rem) {
+    .textWater h1 {
+        align-items: center;
+        font-size: 3rem;
+        width: 80%;
+    }
+
+    .flex-row {
+        display: block;
+    }
+
 }

@@ -1,6 +1,5 @@
 import { Graphic } from "../components/graphic"
 import { Heading } from "../components/header"
-import { Menu } from "../components/menu/Menu"
 import { Water } from "../components/section1"
 import { Animals } from "../components/section2"
 import { SectionThree } from "../components/section3"
@@ -15,8 +14,6 @@ export function Home() {
 
     return (
         <div>
-            <Menu />
-
             <Heading />
 
             <Water />

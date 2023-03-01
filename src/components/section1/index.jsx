@@ -6,14 +6,12 @@ export function Water() {
     return (
 
         <section className="sectionWater">
-            <div className="blur" />
 
 
             <div className="textWater">
-                <h1>Uso da água na produção animal</h1>
-                <h1>Produtividade hídrica e Escassez Hídrica</h1>
 
-                <p>Estudo de caso em uma bacia hidrográfica no sul do Brasil seguindo as orientações do manual da FAO (2019) “Uso da água em produção animal e cadeia de suprimentos”</p>
+                <h1>Estudo de caso em uma bacia hidrográfica no sul do Brasil seguindo as orientações do manual da FAO (2019) “Uso da água em produção animal e cadeia de suprimentos”</h1>
+
             </div>
 
             <div className="flexWater">
@@ -40,13 +38,19 @@ export function Water() {
                     </div>
                 </div>
 
-                <div  className="spacing"/>
 
-                <div className="flex-3">
+                <div className="flex-2">
 
                     <h3>Gestão hídrica na produção animal: uso mais eficiente dos recursos</h3>
 
-                    <img src={cow} alt="vaca bebendo agua" title="vaca bebendo agua" />
+                    <div className="flex-row">
+
+                    <div>
+
+                        <img src={cow} alt="vaca bebendo agua" title="vaca bebendo agua" />
+                    </div>
+
+                    <div>
 
                     <p>•As grande maioria das fazendas de produção animal <span className="weight">NÃO</span> mensuram o consumo de água para a produção animal. </p>
 
@@ -55,6 +59,9 @@ export function Water() {
                     <p>•Ao <span className="weight">medir</span> o consumo de água, o <span className="weight"> produtor compreende os valores</span>  e pode implementar <span className="weight">boas práticas</span> para usar os recursos hídricos de forma mais eficiente.</p>
 
                     <p> •O  <span className="weight">desconhecimento da demanda hídrica</span> para as atividades pecuárias e eventos de escassez hídrica podem <span className="weight">comprometer a continuidade da atividade</span>, impactando economias e o abastecimento de alimentos.</p>
+                    </div>
+                    </div>
+
                 </div>
 
 

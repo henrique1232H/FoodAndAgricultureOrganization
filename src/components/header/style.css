@@ -1,39 +1,37 @@
 
 
 .img {
-    background-image: url("../../assets/img/black-forest-ham.jpg");
+    background-image: url("../../assets/img/cowMain.jpg");
     background-position: center center;
     background-size: cover;
-
+   
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .text {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-top: 10rem;
 }
 
 .h1Heading {
     color: #fff;
     height: 50vh;
     text-align: center;
-    font-size: 7rem;
-    width: 22%;
+    align-items: center;
+    width: 30%;
+    font-size: 5rem;
+    text-shadow: 0px 4px 4px #000000;
+    line-height: 58.72px;
 
 }
 
-.icons {
-    display: flex;
-    flex-direction: row;
-    margin-top: 3rem;
-    gap: 1rem;
-}
-
-.icons a {
-    text-decoration: none;
-    color: #fff;
+@media (max-width: 50rem) {
+    .h1Heading {
+        width: 50%;
+    }
 }
