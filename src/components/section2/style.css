@@ -2,7 +2,7 @@
 .background {
     background-image: url("../../assets/svg/background.svg");
     width: 100%;
-    padding: 12rem 4rem;
+    padding-bottom: 23rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +12,8 @@
 
 .background h2 {
     margin-top: 20rem;
+    padding: 2rem;
+    
 }
 
 .gridAnimals {

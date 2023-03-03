@@ -1,13 +1,15 @@
 import "./style.css";
 
-import graphicOne from "../../assets/svg/graphic/graphic-one.svg";
+import { Doughnout } from "../graphicsChart/doughnout";
 import graphicTwo from "../../assets/svg/graphic/graphic-two.svg";
 import graphicThree from "../../assets/svg/graphic/graphic-three.svg";
 import graphicFour from "../../assets/svg/graphic/graphic-four.svg";
-import imgVersion from "../../assets/img/img-version-1.svg"
+import imgVersion from "../../assets/img/img-version-1.svg";
+
 
 export function Graphic() {
 
+    
     return (
         <section className="containerGraphic">
             
@@ -16,13 +18,7 @@ export function Graphic() {
                 <div className="h2Consert">
                      <h2>As atividades de produção animal e irrigação representam 77,7% do consumo de água no Brasil!!</h2>
 
-                    <figure>
-                        <img src={graphicOne} alt="" />
 
-                        <figcaption><a href="https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020">
-                        https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020
-                            </a></figcaption>
-                    </figure>
 
                     <p>Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </p>
                     
