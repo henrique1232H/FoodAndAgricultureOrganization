@@ -2,94 +2,70 @@
     display: flex;
     padding: 2rem 10rem;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-h2 {
-    font-size: 2rem;
-
-}
-
-.flexGraphic {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-
 }
 
 
-.flexGraphic .h2Consert h2 {
-    color: #153C52;
-    margin-bottom: 4rem;
-    width: 60%;
-
+.flexGraphic figure figcaption {
+    padding-left: 7rem;
 }
 
-.flexGraphic .h2Consert p {
-    margin-top: 4rem;
-    padding-left: 4rem;
+.flexGraphic .h2Consert img {
+    height: 100vh;
+    display: block;
+    margin: 0 auto;
 }
 
-
-.flexGraphic h2 {
-    color: #153C52;
-    margin-bottom: 4rem;
-
-}
-
-.flexGraphic div:nth-child(2) {
-    justify-content: flex-start;
-}
-
-.flexGraphic div:nth-child(2) p {
-    justify-content: flex-start;
-}
-
-
-.h2Consert {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 10rem;
-}
-
-.flexGraphic p {
-    font-size: 1.6rem;
-    margin-top: 1rem;
-}
-
-.flexGraphic .align {
-    display: flex;
-    margin: 2rem auto;
-}
-.margin {
-    margin-top: 10rem;
-
-    gap: 5rem;
-}
-
-.margin p {
-    width: 88%;
-}
-
-.orientacao {
-    margin-top: 10rem;
-}
-
-.marginLeft {
-    margin-left: 5rem;
-}
-
-.orientacao h1 {
-    font-size: 2.5rem;
+.flexGraphic h2  {
     text-align: center;
 }
 
-.marginTop {
-    margin-top: 1rem;
+
+.flexGraphics {
+    padding: 6rem;
+    display: flex;
+}
+
+.flexGraphic p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    padding-left: 8rem;
+}
+
+
+.marginLeft p {
+    padding: 0;
+    margin-top: 2rem;
+    width: 83%;
+}
+
+@media (max-width: 70rem) {
+
+    .flexGraphic figure figcaption {
+        padding-left: 0rem;
+    }
+
+    .flexGraphics {
+        flex-direction: column;
+    }  
+    
+    img {
+        margin-right: 0;
+    }
+
+    .flexGraphics img {
+        height: auto;
+    }
+
+    .flexGraphics p, .flexGraphic p {
+        padding: 0;
+        width: 130%;
+        margin: 0;
+    }
+
+    .flexGraphic .h2Consert img {
+        height: auto;
+    }
+
+
 }

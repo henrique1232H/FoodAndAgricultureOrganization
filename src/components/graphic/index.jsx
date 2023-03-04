@@ -1,6 +1,6 @@
 import "./style.css";
 
-import { Doughnout } from "../graphicsChart/doughnout";
+import graphicOne from "../../assets/svg/graphic/graphic-one.svg"
 import graphicTwo from "../../assets/svg/graphic/graphic-two.svg";
 import graphicThree from "../../assets/svg/graphic/graphic-three.svg";
 import graphicFour from "../../assets/svg/graphic/graphic-four.svg";
@@ -18,13 +18,27 @@ export function Graphic() {
                 <div className="h2Consert">
                      <h2>As atividades de produção animal e irrigação representam 77,7% do consumo de água no Brasil!!</h2>
 
+                        <figure>
+                            <img src={graphicOne} alt="grafico" />
 
+                            <figcaption>
+                                <a href="https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020">https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020</a>
+                            </figcaption>
+                        </figure>
 
                     <p>Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </p>
                     
                 </div>
+                
 
-                <div>
+                <div className="flexGraphics">
+
+                    <div>
+                        <img className="align" src={graphicTwo} alt="" />
+                    </div>
+                    
+
+                    <div>
                     <h2>A cultura da abundância hídrica no Brasil</h2>
 
                     <p>O Brasil possui 12% da água doce do planeta, mas a sua distribuição é desigual</p>
@@ -32,33 +46,21 @@ export function Graphic() {
                     <p>A região produtora de alimentos é a que mais sofre com estiagens</p>
 
                     <p>Secas intensas, como observadas em 2021, quando o clima seco no centro-sul do Brasil levou a uma escassez de 267 km3 de água retida em rios, lagos, solo e aquíferos, em comparação com a média sazonal dos últimos 20 anos, podem ser mais intensas e frequente devido às mudanças climáticas[1] </p>
+                    </div>
 
-                    <img className="align" src={graphicTwo} alt="" />
+                    
 
                 </div>
 
-            </div>
 
-            <div className="flexGraphic margin">
-
-                <div className="marginLeft">
-                    <img src={graphicThree} alt="" />
-
-                    <p> O Plano Nacional de Segurança Hídrica <a href="#">[1]</a>  apresenta estimativas de risco de perda produtiva para os setores da indústria, pecuária e agricultura irrigada, relacionada a falta de oferta de água. </p>
-                </div>
-                
-                <div>
-                    <img src={graphicFour} alt="" />
-                </div>
-            </div>
-
+                <div className="">
 
             <div className="orientacao"> 
             
             
                 <h1>Orientações da FAO para avaliação do uso da água em sistemas de produção animal integrando a cadeia de suprimentos</h1>
 
-                <div className="flexGraphic marginTop"> 
+                <div className="flexGraphics"> 
                 
                 
                 
@@ -76,14 +78,30 @@ export function Graphic() {
 
                         <p>O manual da FAO, publicado em 2019, orienta:</p>
 
-                        <p>-Como fazer um inventário de usos da água, considerando os usos diretos e indiretos</p>
+                        <p>- Como fazer um inventário de usos da água, considerando os usos diretos e indiretos</p>
 
-                        <p>-Calcular, avaliar e divulgar a Produtividade Hídrica e a Escassez Hídrica</p>
+                        <p>- Calcular, avaliar e divulgar a Produtividade Hídrica e a Escassez Hídrica</p>
                     </div>
                 
-                
-                
+            
+
                 </div>
+                
+
+                <div className="flexGraphics">
+                    <div className="marginLeft">
+                        <img src={graphicThree} alt="" />
+
+                         <p> O Plano Nacional de Segurança Hídrica <a href="#">[1]</a>  apresenta estimativas de risco de perda produtiva para os setores da indústria, pecuária e agricultura irrigada, relacionada a falta de oferta de água. </p>
+                    </div>
+                
+                <div>
+                    <img src={graphicFour} alt="" />
+                </div>
+                </div>
+
+            </div>
+            </div>
             </div>
         </section>
     )
