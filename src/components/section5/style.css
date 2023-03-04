@@ -24,3 +24,8 @@
 .carouselItem figcaption p {
     font-size: 1.3rem;
 }
+
+
+@media (min-width: 27rem) {
+ 
+}

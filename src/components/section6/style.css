@@ -1,4 +1,51 @@
-
-.containerSectionSix h1 {
-    padding-top: 4rem;
+.containerSectionSix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.dashed {
+    display: flex;
+    flex-direction: column;
+    background: rgba(112, 169, 255, 0.25);
+    border: 3px dashed #153C52;
+    border-radius: 10px;
+    height: 100vh;
+    width: 80%;
+}
+
+.dashed h1 {
+    text-align: center;
+}
+
+.dashed .outline img {
+    position: absolute;
+    display: flex;
+    outline: 0;
+    left: 34rem;
+}
+
+.dashed table {
+    position: relative;
+    outline: 2;
+    background: rgba(229, 250, 254, 0.5);
+    height: 30vh;
+    width: 50rem;
+    border: 1px solid #153C52;
+    border-radius: 1rem;
+}
+
+
+
+table thead {
+    
+    border-bottom: 1px dashed #153C52;
+}
+
+thead td {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
