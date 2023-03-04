@@ -8,11 +8,11 @@ export function SectionFour() {
         <div className="containerFour">
             <h2>Aplicação do manual da FAO “avaliação sobre uso da água na produção animal e na cadeia de suprimentos” em uma bacia hidrográfica de estudo no sul do Brasil</h2>
 
-            <div className="flexGraphics">
+            <div className="flexGraphics ">
 
                     <div>
 
-                        <figure>
+                        <figure className="change">
                             <img src={graphicFive} alt="" />
                         </figure>
                         
