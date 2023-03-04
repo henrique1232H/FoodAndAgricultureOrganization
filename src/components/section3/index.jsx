@@ -8,7 +8,7 @@ export function SectionThree() {
     return (
 
         <section className="containerAnimals">
-
+ 
             <div className="background2">
                     
                     <div className="gridAnimals">
