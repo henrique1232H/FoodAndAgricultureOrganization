@@ -5,7 +5,7 @@ export function SectionSix() {
     return (
         <section className="containerSectionSix">
 
-            <div className="background">
+            <div className="">
                 
                 <h1>Consumo de água</h1>
 

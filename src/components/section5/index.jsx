@@ -13,8 +13,8 @@ export function Caracteristica() {
             <h1>Características das fazendas </h1>
 
 
-            <Carousel pause="hover" controls={true} indicators={false} className="carousel">
-                <Carousel.Item interval={3500} className="carouselItem">
+            <Carousel controls={true} indicators={false} className="carousel">
+                <Carousel.Item className="carouselItem">
 
                     <figure>
                         <img src={cowsWater}
