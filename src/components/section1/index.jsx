@@ -47,7 +47,7 @@ export function Water() {
 
                     <div>
 
-                        <img src={cow} alt="vaca bebendo agua" title="vaca bebendo agua" />
+                        <img src={cow} alt="vaca bebendo agua" title="vaca bebendo agua" className="ajust" />
                     </div>
 
                     <div>

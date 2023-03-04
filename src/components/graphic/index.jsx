@@ -19,7 +19,7 @@ export function Graphic() {
                      <h2>As atividades de produção animal e irrigação representam 77,7% do consumo de água no Brasil!!</h2>
 
                         <figure>
-                            <img src={graphicOne} alt="grafico" />
+                            <img src={graphicOne} alt="grafico"  className="ajust"/>
 
                             <figcaption>
                                 <a href="https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020">https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020</a>
@@ -90,7 +90,7 @@ export function Graphic() {
 
                 <div className="flexGraphics">
                     <div className="marginLeft">
-                        <img src={graphicThree} alt="" />
+                        <img src={graphicThree} alt=""  className="ajust"/>
 
                          <p> O Plano Nacional de Segurança Hídrica <a href="#">[1]</a>  apresenta estimativas de risco de perda produtiva para os setores da indústria, pecuária e agricultura irrigada, relacionada a falta de oferta de água. </p>
                     </div>

@@ -11,6 +11,8 @@
 
 }
 
+
+
 .textWater h1 {
     width: 84%;
     color: #24526B;
@@ -64,6 +66,8 @@
 }
 
 
+
+
 p {
     color: #153C52;
 }
@@ -101,5 +105,15 @@ p {
     .flex-row {
         display: block;
     }
+
+    .ajust {
+        height: 20vh !important;
+    }
+
+    
+.sectionWater {
+    padding: 0;
+    margin: 0;
+}
 
 }
