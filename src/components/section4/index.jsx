@@ -8,17 +8,21 @@ export function SectionFour() {
         <div className="containerFour">
             <h2>Aplicação do manual da FAO “avaliação sobre uso da água na produção animal e na cadeia de suprimentos” em uma bacia hidrográfica de estudo no sul do Brasil</h2>
 
-            <div className="flexGraphic">
+            <div className="flexGraphics">
 
                     <div>
-                        <img src={graphicFive} alt="" />
+
+                        <figure>
+                            <img src={graphicFive} alt="" />
+                        </figure>
+                        
 
                         <p className="center">Área do estudo: Bacia hidrográfica Lajeado Tacongava (150 km2)
                         Localizada na Bacia Hidrográfica Taquari-Antas, região nordeste do estado do RS</p>
 
                     </div>
 
-                    <div>
+                    <div className="flexText2">
                         <p>Ano do estudo: 2018</p>
 
                         <p>Questionários para coleta de dados aplicados entre os anos de 2018 e 2019 em 115 fazendas:</p>
