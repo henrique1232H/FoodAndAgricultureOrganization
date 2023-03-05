@@ -110,6 +110,10 @@ p {
         height: 20vh !important;
     }
 
+    .flex-1 h3 {
+        width: 100%;
+    }
+
     .sectionWater p {
         width: 100%;
     }
