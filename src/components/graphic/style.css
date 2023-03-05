@@ -41,8 +41,25 @@
 
 @media (max-width: 70rem) {
 
+    .containerGraphic {
+        padding: 0;
+    }
+
+    .h2Consert p {
+        margin-left: 10rem !important;
+    }
+
+    .containerGraphic p {
+        width: 60% !important;
+    }
+
     .flexGraphic figure figcaption {
-        padding-left: 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 19rem;
+        width: 60%;
     }
 
     .flexGraphics {
@@ -51,6 +68,7 @@
     
     img {
         margin-right: 0;
+        padding: 0;
     }
 
     .flexGraphics img {

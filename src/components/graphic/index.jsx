@@ -10,7 +10,7 @@ import imgVersion from "../../assets/img/img-version-1.svg";
 export function Graphic() {
 
     
-    return (
+    return ( 
         <section className="containerGraphic">
             
             <div className="flexGraphic">
