@@ -26,6 +26,14 @@
 }
 
 
-@media (min-width: 27rem) {
- 
+@media (max-width: 70rem) {
+    .caracteristicas {
+        background: none;
+    }
+
+    .carousel {
+        width: 100%;
+        background: red;
+        padding-left: 4rem;
+    }
 }
