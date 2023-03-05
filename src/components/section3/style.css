@@ -23,6 +23,9 @@
 
 @media (max-width: 70rem) {
 
+    .background2 {
+        background: none;
+    }
 
     .gridAnimals img {
         display: block;
