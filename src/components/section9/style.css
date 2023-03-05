@@ -6,6 +6,10 @@
 
 }
 
+.containerSectionNone img {
+    height: auto;
+}
+
 .figCaptionFlex {
     display: flex;
     justify-content: space-between;
@@ -13,6 +17,9 @@
 
 .none {
     gap: 1rem;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .none p {
@@ -20,4 +27,13 @@
     font-size: 1.6rem;
     width: 60%;
     height: 20vh;
+}
+
+@media (max-width:70rem) {
+
+    .containerSectionNone img {
+        height: 25vh;
+    }
+
+    
 }
