@@ -26,11 +26,11 @@ export function SectionTen() {
                         Prefeituras municipais de Serafina Correa, União da Serra, Montauri e Guaporé</p>
                     </div>
 
-                    <div>
+                    <div className="test">
                         <h2>Outras referências sobre o tema no Brasil:</h2>
 
                         <p>Produção animal e recursos hídricos: uso da água nas dimensões quantitativa e qualitativa e cenários regulatórios e de consumo v.3 </p>
-                        <a href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf">http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf.</a>
+                        <a href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf" className="funciona">http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf.</a>
 
 
                         <p>Produção animal e recursos hídricos: tecnologias para manejo de resíduos e uso eficiente dos insumos v.2</p>
