@@ -35,6 +35,12 @@
         color: #000;
     }
     
+    .flexSectionTen h2 {
+        text-align: start;
+        font-size: 2rem;
+    }
+
+    
 
     .flexSectionTen {
         padding: 0 2rem;
