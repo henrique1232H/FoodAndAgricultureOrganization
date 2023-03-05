@@ -119,13 +119,10 @@ p {
     }
 
 
-.sectionWater {
-    padding: 0;
-    margin: 0;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background: red;
-}
+    .flex-1 {
+        margin-right: 0;
+        padding: 3rem;
+    }
 
 
 
