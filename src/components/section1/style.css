@@ -142,3 +142,15 @@ p {
 
 
 }
+
+
+@media (min-width: 2200px) and (max-width: 3000px) {
+    .background ,.background2,.caracteristicas, .ondas  {
+        background: none !important;
+    } 
+    
+    .ondas p, .ondas h2, .ondas h1, .ondas a {
+        font-size: 4rem !important;
+        color: #000 !important;
+    }
+}
