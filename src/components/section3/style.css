@@ -40,4 +40,9 @@
        padding: 0 6rem;
         width: 100%;
     }
+
+    .aabb p {
+        display: block;
+        text-align: start;
+    }
 }

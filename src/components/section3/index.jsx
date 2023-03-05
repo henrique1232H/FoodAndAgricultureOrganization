@@ -13,7 +13,7 @@ export function SectionThree() {
                     
                     <div className="gridAnimals">
 
-                    <div>
+                    <div className="aabb">
                         <h3>O que é Produtividade Hidrica?</h3>
 
                         <figure className="figure">
