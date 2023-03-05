@@ -37,4 +37,9 @@ ul li {
         height: 40vh;
         margin: 0 auto;
     }
+
+    .ss {
+        display: block;
+        width: 90% !important;
+    }
 }

@@ -17,7 +17,7 @@ export function SectionFour() {
                         </figure>
                         
 
-                        <p className="center">Área do estudo: Bacia hidrográfica Lajeado Tacongava (150 km2)
+                        <p className="center ss">Área do estudo: Bacia hidrográfica Lajeado Tacongava (150 km2)
                         Localizada na Bacia Hidrográfica Taquari-Antas, região nordeste do estado do RS</p>
 
                     </div>
