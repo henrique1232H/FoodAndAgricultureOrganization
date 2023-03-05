@@ -6,10 +6,6 @@
 
 }
 
-.containerSectionNone img {
-    height: auto;
-}
-
 .figCaptionFlex {
     display: flex;
     justify-content: space-between;
@@ -32,7 +28,7 @@
 @media (max-width:70rem) {
 
     .containerSectionNone img {
-        height: 25vh;
+        height: 24vh;
     }
 
     
