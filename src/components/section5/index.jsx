@@ -16,7 +16,7 @@ export function Caracteristica() {
             <Carousel controls={true} indicators={false} className="carousel">
                 <Carousel.Item className="carouselItem">
 
-                    <figure>
+                    <figure className="imgs">
                         <img src={cowsWater}
                     alt="vaca bebendo agua" />
 
@@ -33,7 +33,7 @@ export function Caracteristica() {
                 
                 <Carousel.Item interval={3500} className="carouselItem">
 
-                    <figure>
+                    <figure className="imgs">
                         <img src={cowsWater} alt="vaca bebendo agua" />
 
                         <figcaption>
@@ -64,7 +64,7 @@ export function Caracteristica() {
 
                 <Carousel.Item interval={3500} className="carouselItem">
 
-                    <figure>
+                    <figure className="imgs">
                         <img src={cowsWater} alt="vaca bebendo agua" />
 
                         <figcaption>

@@ -37,6 +37,10 @@
         padding-left: 0;
     }
 
+   .imgs img {
+    height: 44vh !important;
+   }
+
     .carousel figcaption p {
         text-align: center;
     }
