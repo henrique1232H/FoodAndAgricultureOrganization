@@ -18,34 +18,62 @@
     text-align: center;
 }
 
+.boxTable {
+    position: relative;
+}
+
 .dashed .outline img {
     position: absolute;
     display: flex;
     outline: 0;
-    left: 34rem;
+    left: 30%;
 }
 
-.dashed table {
+.outline {
+    gap: 3rem;
+}
+
+.dashed .table {
     position: relative;
     outline: 2;
     background: rgba(229, 250, 254, 0.5);
     height: 30vh;
-    width: 50rem;
+    width: 70vmin;
     border: 1px solid #153C52;
     border-radius: 1rem;
 }
 
 
 
-table thead {
-    
-    border-bottom: 1px dashed #153C52;
-}
-
-thead td {
+.tableTitle {
     display: flex;
-    align-items: center;
-    padding-top: 1rem;
     justify-content: center;
+    border-bottom: 1px dashed #153C52;
+    height: 5vh;
 }
 
+.tableText {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.tableText p {
+    font-size: 2rem;
+}
+
+@media (max-width: 70rem) {
+    .dashed {
+        border: none;
+        width: 100%;
+
+    }
+
+    .dashed .outline img {
+        left: 20%;
+    }
+
+    .table {
+        height: 20vh;
+    }
+}
