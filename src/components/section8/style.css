@@ -33,4 +33,11 @@
     display: flex;
     gap: 4rem;
     padding-left: 7rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width:70rem) {
+    .center, .end {
+        text-align: start;
+    }
 }

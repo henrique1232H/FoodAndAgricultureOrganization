@@ -1,0 +1,23 @@
+.containerSectionNone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.figCaptionFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.none {
+    gap: 1rem;
+}
+
+.none p {
+    padding: 0 6rem ;
+    font-size: 1.6rem;
+    width: 60%;
+    height: 20vh;
+}

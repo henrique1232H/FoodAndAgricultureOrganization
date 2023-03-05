@@ -8,6 +8,7 @@ import { Caracteristica } from "../components/section5"
 import { SectionSix } from "../components/section6"
 import { SectionSeven } from "../components/section7"
 import { SectionEight } from "../components/section8"
+import { SectionNone } from "../components/section9"
 import "./style.css"
 
 
@@ -34,6 +35,8 @@ export function Home() {
             <SectionSeven />
 
             <SectionEight />
+
+            <SectionNone />
         </div>
     )
  }
