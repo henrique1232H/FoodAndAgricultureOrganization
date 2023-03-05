@@ -131,7 +131,7 @@ export function SectionSix() {
                     </div>
                     
                     <div className="boxTable">
-                        <img src={chicken} alt="" />
+                        <img src={cow} alt="" />
 
                         <div className="table">
                             <div className="tableTitle">

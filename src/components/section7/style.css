@@ -1,0 +1,55 @@
+.ContainerSectionSeven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+
+.ContainerSectionSeven h2 {
+    padding-top: 6rem;
+    width: 60%;
+    height: 10vh;
+    text-align: center;
+}
+
+.SevenText {
+    margin-top: 7rem;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.SevenText p {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+
+.inputs {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    
+}
+
+.inputs div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 1rem;
+    border: 1px solid #153C52;
+    border-radius: 1rem;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.spac {
+    margin-top: 5rem;
+}
+
+@media (max-width: 70rem) {
+    .SevenText {
+        padding-top: 10rem;
+    }
+}
