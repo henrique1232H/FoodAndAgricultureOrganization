@@ -37,11 +37,11 @@
 
     .figure {
         display: block;
-       padding: 0 6rem;
         width: 100%;
     }
 
     .aabb p {
+        width: 80%;
         display: block;
         text-align: start;
     }
