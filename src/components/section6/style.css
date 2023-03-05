@@ -10,7 +10,7 @@
     background: rgba(112, 169, 255, 0.25);
     border: 3px dashed #153C52;
     border-radius: 10px;
-    height: 100vh;
+    height: auto;
     width: 80%;
 }
 
@@ -18,15 +18,21 @@
     text-align: center;
 }
 
+.tableCenter {
+    display: flex;
+    justify-content: center;
+}
+
 .boxTable {
     position: relative;
 }
 
-.dashed .outline img {
+.dashed img {
     position: absolute;
     display: flex;
     outline: 0;
     left: 30%;
+    top: 10%;
 }
 
 .outline {
@@ -37,7 +43,7 @@
     position: relative;
     outline: 2;
     background: rgba(229, 250, 254, 0.5);
-    height: 30vh;
+    height: auto;
     width: 70vmin;
     border: 1px solid #153C52;
     border-radius: 1rem;
@@ -70,6 +76,7 @@
     }
 
     .dashed .outline img {
+        top: 1%;
         left: 20%;
     }
 

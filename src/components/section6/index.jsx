@@ -53,14 +53,14 @@ export function SectionSix() {
 
                         <div className="table">
                             <div className="tableTitle">
-                              <h2>Suino</h2>  
+                              <h2>Aves</h2>  
                             </div>
                             
                             <div className="tableStats">
 
                                 <div className="tableText">
                                     <p>Evapotransipração[%]</p>
-                                    <p>99.7</p>
+                                    <p>99.8</p>
                                 </div>
                             </div>
                             
@@ -75,9 +75,17 @@ export function SectionSix() {
                             <div className="tableStats">
                                 <div className="tableText">
                                     <p>Limpeza[%]</p>
-                                    <p>0.2</p>
+                                    <p>0.002</p>
                                 </div>
                             </div>
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Refrigeração[%]</p>
+                                    <p>0.1</p>
+                                </div>
+                            </div>
+                            
                         </div>
 
                     </div>
@@ -85,7 +93,135 @@ export function SectionSix() {
 
                 </div>
                 
-            
+                <h1>Bovinos</h1>
+
+                <div className="flexGraphics outline">
+                    <div className="boxTable">
+                        <img src={cow} alt="" />
+
+                        <div className="table">
+                            <div className="tableTitle">
+                              <h2>Pasto</h2>
+                            </div>
+                            
+                            <div className="tableStats">
+
+                                <div className="tableText">
+                                    <p>Evapotransipração[%]</p>
+                                    <p>99.1</p>
+                                </div>
+                            </div>
+                            
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Dessedentação[%]</p>
+                                    <p>0.8</p>
+                                </div>
+                            </div>
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Limpeza[%]</p>
+                                    <p>0.1 </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div className="boxTable">
+                        <img src={chicken} alt="" />
+
+                        <div className="table">
+                            <div className="tableTitle">
+                              <h2>Semi-confinado</h2>  
+                            </div>
+                            
+                            <div className="tableStats">
+
+                                <div className="tableText">
+                                    <p>Evapotransipração[%]</p>
+                                    <p>99.2</p>
+                                </div>
+                            </div>
+                            
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Dessedentação[%]</p>
+                                    <p>0.7</p>
+                                </div>
+                            </div>
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Limpeza[%]</p>
+                                    <p>0.1</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+
+                    </div>
+                    
+                    
+
+                </div>
+                
+
+                <div className="tableCenter  outline">
+                    
+                <div className="boxTable">
+                        <img src={cow} alt="" />
+
+                        <div className="table">
+                            <div className="tableTitle">
+                              <h2>Confinado</h2>  
+                            </div>
+                            
+                            <div className="tableStats">
+
+                                <div className="tableText">
+                                    <p>Evapotransipração[%]</p>
+                                    <p>99.2</p>
+                                </div>
+                            </div>
+                            
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Dessedentação[%]</p>
+                                    <p>0.6</p>
+                                </div>
+                            </div>
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Limpeza[%]</p>
+                                    <p>0.1</p>
+                                </div>
+                            </div>
+
+                            <div className="tableStats">
+                                <div className="tableText">
+                                    <p>Refrigeração[%]</p>
+                                    <p>0.1</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
             </div>
             
         </section>
