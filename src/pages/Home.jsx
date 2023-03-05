@@ -1,6 +1,7 @@
 import { Graphic } from "../components/graphic"
 import { Heading } from "../components/header"
 import { Water } from "../components/section1"
+import { SectionTen } from "../components/section10"
 import { Animals } from "../components/section2"
 import { SectionThree } from "../components/section3"
 import { SectionFour } from "../components/section4"
@@ -37,6 +38,8 @@ export function Home() {
             <SectionEight />
 
             <SectionNone />
+
+            <SectionTen />
         </div>
     )
  }

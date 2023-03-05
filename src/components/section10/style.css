@@ -1,0 +1,35 @@
+.ondas {
+    background-image: url("../../assets/ondafinais.svg");
+    padding-top: 10rem;
+    background-repeat: no-repeat;
+}
+
+.flexSectionTen {
+    padding: 4rem 12rem;
+    display: flex;
+}
+
+.flexSectionTen .fixed p {
+    width: 70%;
+    height: 45vh;
+}
+
+.flexSectionTen p {
+  font-size: 1.5rem;
+}
+
+.flexSectionTen p, .flexSectionTen h2, .flexSectionTen a {
+    color: #fff;
+}
+
+@media (max-width: 70rem) {
+
+    .ondas {
+        margin-top: 50rem;
+        height: 80rem;
+    }
+
+    .flexSectionTen {
+        flex-direction: column;
+    }
+}
