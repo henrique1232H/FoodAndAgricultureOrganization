@@ -46,7 +46,7 @@
     }
 
     .h2Consert p {
-        margin-left: 10rem !important;
+        margin-left: 5rem !important;
     }
 
     .containerGraphic p {
@@ -58,7 +58,6 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding-left: 19rem;
         width: 60%;
     }
 
