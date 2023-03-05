@@ -33,6 +33,11 @@
 
     .carousel {
         width: 100%;
-        padding-left: 4rem;
+        height: 40vh;
+        padding-left: 0;
+    }
+
+    .carousel figcaption p {
+        text-align: center;
     }
 }
