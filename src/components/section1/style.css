@@ -95,7 +95,7 @@ p {
     font-weight: 800;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 70rem) {
     .textWater h1 {
         align-items: center;
         font-size: 3rem;
@@ -110,14 +110,22 @@ p {
         height: 20vh !important;
     }
 
-    p {
-        padding: 0;
+    .sectionWater p {
+        width: 100%;
+    }
+
+    .sectionWater .ajust {
+        height: 10vh;
     }
 
 
 .sectionWater {
     padding: 0;
     margin: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
+
 
 }
