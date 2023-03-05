@@ -31,5 +31,10 @@
         height: 24vh;
     }
 
+    .containerSectionNone .figCaptionFlex {
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
     
 }
