@@ -45,7 +45,7 @@ export function SectionTen() {
                 </div>
 
             </div>
-                    <div>
+                    <div className="final">
                         <img src={final} alt="" />
                     </div>
         </section>
