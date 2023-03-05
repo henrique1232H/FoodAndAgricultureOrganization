@@ -25,11 +25,19 @@
 
     .background2 {
         background: none;
+        padding: 10rem 0;
     }
 
     .gridAnimals img {
         display: block;
-        margin: 0 auto;
-        height: 30vh;
+   
+        height: 20vh;
+    }
+
+
+    .figure {
+        display: block;
+       padding: 0 6rem;
+        width: 100%;
     }
 }

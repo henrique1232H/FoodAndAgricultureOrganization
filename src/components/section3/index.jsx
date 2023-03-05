@@ -16,7 +16,10 @@ export function SectionThree() {
                     <div>
                         <h3>O que é Produtividade Hidrica?</h3>
 
-                        <img src={cows} alt="" />
+                        <figure className="figure">
+                            <img src={cows} alt="" />
+                        </figure>
+                        
 
                         <p>Razão entre o que é produzido a quantidade de água consumida para este fim.</p>
 
@@ -31,8 +34,11 @@ export function SectionThree() {
 
                     <div className="impact">
                         <h3>Impacto da produção animal na escassez hídrica</h3>
-
-                        <img src={noWater} alt="" />
+                        
+                        <figure className="figure">
+                            <img src={noWater} alt="" />
+                        </figure>
+                        
 
                         <p>A mesma quantidade de consumo de água em lugares diferentes não produz o mesmo impacto ambiental porque a disponibilidade hídrica e a vulnerabilidade ambiental não são homogêneas em todo o mundo.</p>
 
