@@ -7,6 +7,7 @@ import { SectionFour } from "../components/section4"
 import { Caracteristica } from "../components/section5"
 import { SectionSix } from "../components/section6"
 import { SectionSeven } from "../components/section7"
+import { SectionEight } from "../components/section8"
 import "./style.css"
 
 
@@ -31,6 +32,8 @@ export function Home() {
             <SectionSix />
 
             <SectionSeven />
+
+            <SectionEight />
         </div>
     )
  }

@@ -15,9 +15,10 @@
     width: 80%;
 }
 
-.dashed h1 {
+.dashed h1, h3, h2 {
     text-align: center;
 }
+
 
 .tableCenter {
     display: flex;
@@ -28,7 +29,7 @@
     position: relative;
 }
 
-.dashed img {
+.dashed .absolute {
     position: absolute;
     display: flex;
     outline: 0;

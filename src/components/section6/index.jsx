@@ -5,17 +5,17 @@ import cow from "../../assets/svg/animals/cowIcon.svg"
 import chicken from "../../assets/svg/animals/chickenIcon.svg"
 
 export function SectionSix() {
-
+ 
     return (
         <section className="containerSectionSix">
 
             <div className="dashed">
-                
+                  
                 <h1>Consumo de água</h1>
 
                 <div className="flexGraphics outline">
                     <div className="boxTable">
-                        <img src={pig} alt="" />
+                        <img src={pig} alt="" className="absolute"/>
 
                         <div className="table">
                             <div className="tableTitle">
@@ -49,7 +49,7 @@ export function SectionSix() {
                     </div>
                     
                     <div className="boxTable">
-                        <img src={chicken} alt="" />
+                        <img src={chicken} alt="" className="absolute"/>
 
                         <div className="table">
                             <div className="tableTitle">
@@ -97,7 +97,7 @@ export function SectionSix() {
 
                 <div className="flexGraphics outline">
                     <div className="boxTable">
-                        <img src={cow} alt="" />
+                        <img src={cow} alt=""  className="absolute"/>
 
                         <div className="table">
                             <div className="tableTitle">
@@ -131,7 +131,7 @@ export function SectionSix() {
                     </div>
                     
                     <div className="boxTable">
-                        <img src={cow} alt="" />
+                        <img src={cow} alt=""  className="absolute"/>
 
                         <div className="table">
                             <div className="tableTitle">
@@ -175,7 +175,7 @@ export function SectionSix() {
                 <div className="tableCenter  outline">
                     
                 <div className="boxTable">
-                        <img src={cow} alt="" />
+                        <img src={cow} alt=""  className="absolute"/>
 
                         <div className="table">
                             <div className="tableTitle">
