@@ -6,7 +6,7 @@ import cow from "../../assets/svg/animals/cowIcon.svg"
 
 
 export function Animals() {
-
+ 
     return (
         <section className="containerAnimals">
 

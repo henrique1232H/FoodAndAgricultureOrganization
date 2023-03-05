@@ -85,3 +85,16 @@ a {
     color: #153C52;
     text-decoration: none;
 }
+
+
+@media (max-width:70rem) {
+    .background {
+        background: none;
+    }
+
+    .gridAnimals p {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
