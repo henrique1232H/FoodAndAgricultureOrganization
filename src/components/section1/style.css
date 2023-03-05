@@ -115,6 +115,7 @@ p {
     }
 
     .sectionWater p {
+        margin-right: 30rem;
         width: 100%;
     }
 
@@ -149,6 +150,8 @@ p {
         background: none !important;
     } 
     
+
+
     .ondas p, .ondas h2, .ondas h1, .ondas a {
         font-size: 4rem !important;
         color: #000 !important;

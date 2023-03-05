@@ -18,7 +18,7 @@ export function Animals() {
                 <div className="border">
                     <h3>Pecuaria de corte</h3>
 
-                    <img src={cow} alt="vaca" />
+                    <img src={cow} alt="vaca"  className="vaca"/>
 
                     <p>2º maior rebanho global</p>
                     <p>2º maior produtor global</p>
@@ -42,7 +42,7 @@ export function Animals() {
                 <div>
                     <h3>Carne de porco</h3>
 
-                    <img src={pig} alt="" />
+                    <img src={pig} alt="" className="vaca" />
 
                     <p>4º maior exportador global</p>
                     <p>4º maior produtor global</p>
