@@ -28,10 +28,14 @@
         padding: 10rem 0;
     }
 
+    .impact {
+        padding: 10rem 3rem !important;
+    }
+
     .gridAnimals img {
         display: block;
    
-        height: 20vh;
+        height: 30vh;
     }
 
 
