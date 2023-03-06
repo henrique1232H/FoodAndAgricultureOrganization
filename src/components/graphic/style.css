@@ -84,7 +84,7 @@
     .containerGraphic p {
         padding: 0;
         gap: 0;
-        width: 80% !important;
+        width: 100% !important;
         flex-wrap: wrap;
     }
 
