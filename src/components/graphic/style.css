@@ -48,7 +48,7 @@
     }
 
     .flexGraphic h2 {
-        text-align: left;
+        text-align: center;
     }
 
     .h2Consert p {
@@ -82,7 +82,8 @@
 
 
     .containerGraphic p {
-        width: 100% !important;
+        width: 89% !important;
+        flex-wrap: wrap;
     }
 
     .flexGraphic figure figcaption {
