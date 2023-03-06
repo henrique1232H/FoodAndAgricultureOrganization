@@ -38,7 +38,7 @@ export function Graphic() {
                     </div>
                     
 
-                    <div>
+                    <div className="arrumar">
                     <h2>A cultura da abundância hídrica no Brasil</h2>
 
                     <p>O Brasil possui 12% da água doce do planeta, mas a sua distribuição é desigual</p>
