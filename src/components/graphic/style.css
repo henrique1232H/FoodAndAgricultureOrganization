@@ -81,12 +81,16 @@
 
 
 
-    .containerGraphic p {
+    .containerGraphic div p {
         padding: 0;
         gap: 0;
         width: 100% !important;
-        flex-wrap: wrap;
     }
+
+    .containerGraphic .flexGraphic .h2Consert .yat {
+        width: 80% !important;
+    }
+
 
     .flexGraphic figure figcaption {
         display: flex;

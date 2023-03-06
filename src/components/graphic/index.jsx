@@ -26,7 +26,7 @@ export function Graphic() {
                             </figcaption>
                         </figure>
 
-                    <p>Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </p>
+                    <p className="yat">Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </p>
                     
                 </div>
                 
