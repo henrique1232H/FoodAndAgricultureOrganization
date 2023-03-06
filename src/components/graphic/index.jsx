@@ -89,7 +89,7 @@ export function Graphic() {
                 
 
                 <div className="flexGraphics">
-                    <div className="marginLeft">
+                    <div className="marginLeft padding">
                         <img src={graphicThree} alt=""  className="ajust"/>
 
                          <p> O Plano Nacional de Segurança Hídrica <a href="#">[1]</a>  apresenta estimativas de risco de perda produtiva para os setores da indústria, pecuária e agricultura irrigada, relacionada a falta de oferta de água. </p>

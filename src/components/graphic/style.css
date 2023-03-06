@@ -47,9 +47,39 @@
         padding: 0;
     }
 
+    .flexGraphic h2 {
+        text-align: left;
+    }
+
     .h2Consert p {
         margin-left: 5rem !important;
     }
+
+    .flexGraphics {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flexGraphics p {
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 1rem 0 !important;
+
+    }
+
+    .padding {
+        margin-bottom: 10rem;
+    }
+
+    .flexGraphics img {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
 
     .containerGraphic p {
         width: 80% !important;
@@ -65,14 +95,19 @@
 
     .flexGraphics {
         flex-direction: column;
+
     }  
     
     .arrumar {
         margin-top: 4rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0;
+        gap: 0;
+        
     }
 
     
