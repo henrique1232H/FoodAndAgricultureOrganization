@@ -54,6 +54,10 @@
         width: 100%;
     }
 
+    .aabb img {
+        height: 30vh !important;
+    }
+
 
     .aabb p {
         width: 90%;
