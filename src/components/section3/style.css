@@ -29,7 +29,11 @@
     }
 
     .impact {
-        padding: 10rem 3rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh !important;
     }
 
     .impact p {
@@ -37,9 +41,7 @@
 
     }
 
-    .gridAnimals img {
-        display: block;
-   
+    .gridAnimals img {   
         height: 25vh;
     }
 
