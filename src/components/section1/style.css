@@ -130,10 +130,6 @@ p {
         justify-content: flex-start;
     }
 
-    .flex-2 img {
-        margin-right: 6rem;
-    }
-
     .flex-1 {
         margin-right: 0;
         padding: 3rem;
