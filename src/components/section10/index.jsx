@@ -30,7 +30,7 @@ export function SectionTen() {
                         <h2>Outras referências sobre o tema no Brasil:</h2>
 
                         <p>Produção animal e recursos hídricos: uso da água nas dimensões quantitativa e qualitativa e cenários regulatórios e de consumo v.3 </p>
-                        <a href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf" className="funciona">http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf.</a>
+                        <a className="alo" href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf">http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf.</a>
 
 
                         <p>Produção animal e recursos hídricos: tecnologias para manejo de resíduos e uso eficiente dos insumos v.2</p>
