@@ -52,8 +52,8 @@
     }
 
     .test a {
-        display: block;
-        width: 60%;
+        display: flex;
+        width: 50%;
         height: 10vh;
     }
     
@@ -71,7 +71,7 @@
     }
 
     .alo {
-        font-size: 0.8rem !important;
+        
     }
 
     .final img {
