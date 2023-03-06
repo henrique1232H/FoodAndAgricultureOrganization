@@ -32,10 +32,15 @@
         padding: 10rem 3rem !important;
     }
 
+    .impact p {
+        width: 70%;
+
+    }
+
     .gridAnimals img {
         display: block;
    
-        height: 30vh;
+        height: 25vh;
     }
 
 
