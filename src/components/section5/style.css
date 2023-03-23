@@ -25,6 +25,11 @@
     font-size: 1.3rem;
 }
 
+.carousel .carousel-control-prev span,
+.carousel .carousel-control-next span {
+    background: #000;
+    border-radius: 3rem;
+} 
 
 
 @media (max-width: 70rem) {

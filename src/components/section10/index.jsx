@@ -1,6 +1,16 @@
 import "./style.css"
 
-import final from "../../assets/final.svg"
+import ATB from "./assets/ATB.png"
+import daad from "./assets/daad.png"
+import emater from "./assets/emater.png"
+import embrapa from "./assets/embrapa.jpg"
+import universidade from "./assets/Universidade.png"
+import montauri from "./assets/montauri.png"
+import serafina from "./assets/SerafinaCorrea.jpg"
+import serra from "./assets/serraBrasao.png"
+import guarope from "./assets/Guapore.png"
+
+
 
 export function SectionTen() {
 
@@ -45,8 +55,23 @@ export function SectionTen() {
                 </div>
 
             </div>
+                    <h3>Parceiros</h3>
                     <div className="final">
-                        <img src={final} alt="" />
+
+                            
+                        <img src={daad} alt="" />
+                        
+                        <img src={ATB} alt="" />
+                        <img src={universidade} alt="" />
+                        <img src={embrapa} alt="" />
+                        <img src={emater} alt="" />
+                        <img src={serafina} alt="" title="Prefeitura de Serafina Corrêa"/>
+
+                        <img src={serra} alt="" title="Prefeitura de União da serra"/>
+
+                        <img src={montauri} alt="" title="Prefeitura de Montauri" />
+
+                        <img src={guarope} alt="" title="Prefeitura de Guaporé" />
                     </div>
         </section>
     )

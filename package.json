@@ -16,7 +16,8 @@
     "react-bootstrap": "^2.7.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "react-iframe": "^1.8.5"
+    "react-iframe": "^1.8.5",
+    "styled-components": "^5.3.9"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
