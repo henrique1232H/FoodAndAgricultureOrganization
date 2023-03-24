@@ -7,7 +7,7 @@ import embrapa from "../../assets/parceiros/embrapa.jpg"
 import universidade from "../../assets/parceiros/Universidade.png"
 import montauri from "../../assets/parceiros/montauri.png"
 import serafina from "../../assets/parceiros/SerafinaCorrea.jpg"
-import serra from "../../assets/parceiros/serraBrasao.png"
+import serra from "../../assets/parceiros/SerraBrasao.png"
 import guarope from "../../assets/parceiros/Guapore.png"
 
 console.log("Hello")
