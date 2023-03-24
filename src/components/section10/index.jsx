@@ -10,7 +10,7 @@ import serafina from "./assets/SerafinaCorrea.jpg"
 import serra from "./assets/serraBrasao.png"
 import guarope from "./assets/Guapore.png"
 
-
+console.log("Hello")
 
 export function SectionTen() {
 
