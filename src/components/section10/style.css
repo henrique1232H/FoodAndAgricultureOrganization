@@ -1,12 +1,14 @@
 .ondas {
-    background-image: url("../../assets/ondafinais.svg");
-    padding-top: 6rem;
+    background-image: url("./assets/ondas.svg");
+    height: 60vh;
+    width: 100%;
 }
 
 .flexSectionTen {
-    padding: 4rem 12rem;
+    padding: 8rem 16rem;
     display: flex;
     flex-direction: row;
+    background: #0099ff;
 }
 
 .flexSectionTen .fixed p {
@@ -32,6 +34,10 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.test {
+    height: 60vh;
 }
 
 @media (max-width: 70rem) {

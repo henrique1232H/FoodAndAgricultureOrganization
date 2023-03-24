@@ -17,9 +17,11 @@ export function SectionTen() {
     return (
         <section className="containerSectionTen">
 
-            <div className="ondas">
+            
+                    <div className="ondas"></div>
 
                 <div className="flexSectionTen">
+
 
                     <div className="fixed">
                         <p>Projeto desenvolvido entre os anos de 2019-2023 através do doutorado da Eng Ambiental Sofia Helena Zanella Carra:
@@ -54,7 +56,7 @@ export function SectionTen() {
 
                 </div>
 
-            </div>
+      
                     <h3>Parceiros</h3>
                     <div className="final">
 
