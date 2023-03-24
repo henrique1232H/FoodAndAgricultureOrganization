@@ -1,14 +1,14 @@
 import "./style.css"
 
-import ATB from "./assets/ATB.png"
-import daad from "./assets/daad.png"
-import emater from "./assets/emater.png"
-import embrapa from "./assets/embrapa.jpg"
-import universidade from "./assets/Universidade.png"
-import montauri from "./assets/montauri.png"
-import serafina from "./assets/SerafinaCorrea.jpg"
-import serra from "./assets/serraBrasao.png"
-import guarope from "./assets/Guapore.png"
+import ATB from "../../assets/parceiros/ATB.png"
+import daad from "../../assets/parceiros/daad.png"
+import emater from "../../assets/parceiros/emater.png"
+import embrapa from "../../assets/parceiros/embrapa.jpg"
+import universidade from "../../assets/parceiros/Universidade.png"
+import montauri from "../../assets/parceiros/montauri.png"
+import serafina from "../../assets/parceiros/SerafinaCorrea.jpg"
+import serra from "../../assets/parceiros/serraBrasao.png"
+import guarope from "../../assets/parceiros/Guapore.png"
 
 console.log("Hello")
 
