@@ -1,8 +1,9 @@
 import { Graphic } from "../components/graphic"
 import { Heading } from "../components/header"
-import { Water } from "../components/section1"
+import { Water } from "../components/gestaoDeAgua"
 import { SectionTen } from "../components/section10"
 import { Animals } from "../components/section2"
+import Agua from "../components/gestaoHidrica"
 import { SectionThree } from "../components/section3"
 import { SectionFour } from "../components/section4"
 import { Caracteristica } from "../components/section5"
@@ -20,6 +21,8 @@ export function Home() {
             <Heading />
 
             <Water />
+
+            <Agua />
 
             <Animals />
 
