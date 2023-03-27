@@ -2,8 +2,6 @@ import "./style.css"
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 
-import cowsWater from "../../assets/svg/animals/cowsWater.svg"
-
 
 export function Caracteristica() {
 
@@ -17,8 +15,6 @@ export function Caracteristica() {
                 <Carousel.Item className="carouselItem">
 
                     <figure className="imgs">
-                        <img src={cowsWater}
-                    alt="vaca bebendo agua" />
 
                         <figcaption>
                              <p>6,108,600 cabeças de suínos</p>
@@ -34,7 +30,6 @@ export function Caracteristica() {
                 <Carousel.Item interval={3500} className="carouselItem">
 
                     <figure className="imgs">
-                        <img src={cowsWater} alt="vaca bebendo agua" />
 
                         <figcaption>
                              <p>Sistema à pasto: 1085 vacas em lactação</p>
@@ -65,7 +60,7 @@ export function Caracteristica() {
                 <Carousel.Item interval={3500} className="carouselItem">
 
                     <figure className="imgs">
-                        <img src={cowsWater} alt="vaca bebendo agua" />
+                       
 
                         <figcaption>
                             <p>55.071 cabeças de suínos</p>
