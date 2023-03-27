@@ -54,7 +54,7 @@ export default function Agua() {
 
                 
 
-                <H3>Gestão hídrica na produção animal uso mais eficiente dos recursos</H3>
+                <H3>Gestão hídrica na produção animal: Uso mais eficiente dos recursos</H3>
 
                 <Linha />
 

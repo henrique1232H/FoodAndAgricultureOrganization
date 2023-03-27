@@ -7,8 +7,10 @@ import graphicFour from "../../assets/svg/graphic/graphic-four.svg";
 import imgVersion from "../../assets/img/img-version-1.svg";
 
 import styled from "styled-components";
-
 import { Doughnut } from "react-chartjs-2";
+import App from "../graphicsChart";
+
+
 
 const Section = styled.div`
     height: 100vh;
@@ -24,7 +26,10 @@ const BlockText = styled.div`
     margin-right: 10rem;
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 3rem;
+
 `
+
+
 
 const FlexGraphic = styled.div`
     display: flex;
@@ -67,6 +72,7 @@ const GraphicFlex = styled.div`
 export function Graphic() {
 
     
+    
     return ( 
         <Section className="containerGraphic">
             
@@ -92,59 +98,7 @@ export function Graphic() {
         
                         <GraphicFlex className="GraphicFlex">
                         
-                            <div>
-                                <div>
-                                    <P>irrigação: </P>
-                                    <P>66,1%</P>
-                                </div>
-
-                                <div>
-                                    <P>Mineração: </P>
-                                    <P>0,9%</P>
-                                </div>
-
-                                <div>
-                                    <P>Abastecimento Urbano: </P>
-                                    <P>9,0</P>
-                                </div>
-                            </div>
-
-                            <div>
-
-                                <div className="circle">
-
-                                    <div className="Text">
-
-        
-                            
-                                    </div>
-
-                                     
-                                </div>
-                            </div>
-
-                            <div>
-                                <div>
-                                    <P>Abastecimento Animal: </P>
-                                    <P>11,6%</P>
-                                </div>
-
-                                <div>
-                                    <P>Termelétricas: </P>
-                                    <P>0,3%</P>
-                                </div>
-
-                                <div>
-                                    <P>Indústria: </P>
-                                    <P>66,1%</P>
-                                </div>
-
-                                <div>
-                                    <P>Abastecimento Rural: </P>
-                                    <P>2,4%</P>
-                                </div>
-                            </div>
-
+                            <App />
 
                         </GraphicFlex>
                         
