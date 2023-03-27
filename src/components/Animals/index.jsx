@@ -39,7 +39,7 @@ export default function Animals() {
 
 
                 <div>
-                    <h3>Carne de porco</h3>
+                    <h3>Carne de frango</h3>
 
                     <img src={chickens} alt="" />
 

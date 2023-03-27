@@ -31,7 +31,7 @@
 
 .gridAnimals img {
     display: block !important;
-    margin: 0 auto 2rem 0 !important ;
+    margin: 0 auto 2rem auto !important ;
     height: 30vh;
 }
 
