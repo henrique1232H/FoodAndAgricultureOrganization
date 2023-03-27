@@ -33,6 +33,6 @@ export const data = {
   ],
 };
 
-export default function App() {
+export default function Doughnuts() {
     return <Doughnut data={data} />
 }

@@ -1,14 +1,7 @@
 import "./style.css";
 
-import graphicOne from "../../assets/svg/graphic/graphic-one.svg"
-import graphicTwo from "../../assets/svg/graphic/graphic-two.svg";
-import graphicThree from "../../assets/svg/graphic/graphic-three.svg";
-import graphicFour from "../../assets/svg/graphic/graphic-four.svg";
-import imgVersion from "../../assets/img/img-version-1.svg";
-
 import styled from "styled-components";
-import { Doughnut } from "react-chartjs-2";
-import App from "../graphicsChart";
+import Doughnuts from "../graphicsChart/Doughnuts";
 
 
 
@@ -98,7 +91,7 @@ export function Graphic() {
         
                         <GraphicFlex className="GraphicFlex">
                         
-                            <App />
+                            <Doughnuts />
 
                         </GraphicFlex>
                         

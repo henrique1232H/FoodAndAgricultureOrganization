@@ -2,6 +2,7 @@
 import "./style.css"
 
 import graphic from "../../assets/svg/graphic/lastGraphic.svg"
+import { BarCharts } from "../graphicsChart/VerticalBarChart"
 
 export function SectionNone() {
 
@@ -11,7 +12,7 @@ export function SectionNone() {
             <h1>Escassez hídrica</h1>
 
             <figure>
-                <img src={graphic} alt="" />
+                <BarCharts />
 
                 <figcaption className="figCaptionFlex">
                     <p>
