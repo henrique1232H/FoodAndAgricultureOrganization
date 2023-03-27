@@ -8,7 +8,7 @@ export const data = {
     labels: ['Irrigação', 'Mineração', 'Abastecimento Urbano', 'Abastecimento Animal', 'Termelétricas', 'Indústria', "Abastecimento Rural"],
   datasets: [
     {
-      label: '# of Votes',
+      label: 'Quantos %',
       data: [66.1, 0.9, 9.0, 11.6, 0.3, 66.1, 2.4],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
@@ -28,7 +28,7 @@ export const data = {
         'rgba(255, 159, 64, 1)',
         "#000"
       ],
-      borderWidth: 1,
+      borderWidth: 2,
     },
   ],
 };
