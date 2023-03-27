@@ -6,103 +6,152 @@ import graphicThree from "../../assets/svg/graphic/graphic-three.svg";
 import graphicFour from "../../assets/svg/graphic/graphic-four.svg";
 import imgVersion from "../../assets/img/img-version-1.svg";
 
+import styled from "styled-components";
+
+import { Doughnut } from "react-chartjs-2";
+
+const Section = styled.div`
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 4rem;
+`
+
+const BlockText = styled.div`
+    height: 80vh;
+    width: 35%;
+    margin-right: 10rem;
+    box-shadow: 10px 10px 10px 10px #ccc;
+    padding: 3rem;
+`
+
+const FlexGraphic = styled.div`
+    display: flex;
+    flex-direction: row;
+
+
+`
+
+const Flex = styled.div`
+    display: flex;
+
+`
+
+const Linha = styled.div`
+    height: 0.2rem;
+    width: 100%;
+    background: #ccc;
+    margin-bottom: 2rem;
+`
+
+const P = styled.p`
+    font-size: 2rem;
+`
+
+const GraphicOne = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+`
+
+const GraphicFlex = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+`
 
 export function Graphic() {
 
     
     return ( 
-        <section className="containerGraphic">
+        <Section className="containerGraphic">
             
-            <div className="flexGraphic">
+            <FlexGraphic>
 
-                <div className="h2Consert">
+                <Flex>
+
+                    <BlockText>
                      <h2>As atividades de produção animal e irrigação representam 77,7% do consumo de água no Brasil!!</h2>
 
-                        <figure>
-                            <img src={graphicOne} alt="grafico"  className="ajust"/>
+                    <Linha />                    
 
-                            <figcaption>
-                                <a href="https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020">https://www.snirh.gov.br/portal/centrais-de-conteudos/conjuntura-dos-recursos-hidricos/conjuntura-2020</a>
-                            </figcaption>
-                        </figure>
+                    <P className="yat">Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </P>
 
-                    <p className="yat">Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </p>
-                    
-                </div>
-                
-
-                <div className="flexGraphics">
-
-                    <div>
-                        <img className="align" src={graphicTwo} alt="" />
-                    </div>
+                    </BlockText>
                     
 
-                    <div className="arrumar">
-                    <h2>A cultura da abundância hídrica no Brasil</h2>
 
-                    <p>O Brasil possui 12% da água doce do planeta, mas a sua distribuição é desigual</p>
+                    <GraphicOne>
 
-                    <p>A região produtora de alimentos é a que mais sofre com estiagens</p>
+                        <h3>Total de água consumidas nas bacias hidrogra (Em 2019)</h3>    
 
-                    <p>Secas intensas, como observadas em 2021, quando o clima seco no centro-sul do Brasil levou a uma escassez de 267 km3 de água retida em rios, lagos, solo e aquíferos, em comparação com a média sazonal dos últimos 20 anos, podem ser mais intensas e frequente devido às mudanças climáticas[1] </p>
-                    </div>
-
-                    
-
-                </div>
-
-
-                <div className="">
-
-            <div className="orientacao"> 
-            
-            
-                <h1>Orientações da FAO para avaliação do uso da água em sistemas de produção animal integrando a cadeia de suprimentos</h1>
-
-                <div className="flexGraphics"> 
-                
-                
-                
-                    <div>
-                        <figure>
-                            <img src={imgVersion} alt="" />
-
-                            <figcaption><a href="https://www.fao.org/3/ca5685en/ca5685en.pdf" target="_blank">https://www.fao.org/3/ca5685en/ca5685en.pdf</a></figcaption>
-                        </figure>
+        
+                        <GraphicFlex className="GraphicFlex">
                         
-                    </div>
+                            <div>
+                                <div>
+                                    <P>irrigação: </P>
+                                    <P>66,1%</P>
+                                </div>
 
-                    <div>
-                        <p>Com o objetivo de padronizar a avaliação sobre uso da água na produção animal, um grupo de 33 experts participou da elaboração de um guia orientativo.</p>
+                                <div>
+                                    <P>Mineração: </P>
+                                    <P>0,9%</P>
+                                </div>
 
-                        <p>O manual da FAO, publicado em 2019, orienta:</p>
+                                <div>
+                                    <P>Abastecimento Urbano: </P>
+                                    <P>9,0</P>
+                                </div>
+                            </div>
 
-                        <p>- Como fazer um inventário de usos da água, considerando os usos diretos e indiretos</p>
+                            <div>
 
-                        <p>- Calcular, avaliar e divulgar a Produtividade Hídrica e a Escassez Hídrica</p>
-                    </div>
-                
-            
+                                <div className="circle">
 
-                </div>
-                
+                                    <div className="Text">
 
-                <div className="flexGraphics">
-                    <div className="marginLeft padding">
-                        <img src={graphicThree} alt=""  className="ajust"/>
+        
+                            
+                                    </div>
 
-                         <p> O Plano Nacional de Segurança Hídrica <a href="#">[1]</a>  apresenta estimativas de risco de perda produtiva para os setores da indústria, pecuária e agricultura irrigada, relacionada a falta de oferta de água. </p>
-                    </div>
-                
-                <div>
-                    <img src={graphicFour} alt="" />
-                </div>
-                </div>
+                                     
+                                </div>
+                            </div>
 
-            </div>
-            </div>
-            </div>
-        </section>
+                            <div>
+                                <div>
+                                    <P>Abastecimento Animal: </P>
+                                    <P>11,6%</P>
+                                </div>
+
+                                <div>
+                                    <P>Termelétricas: </P>
+                                    <P>0,3%</P>
+                                </div>
+
+                                <div>
+                                    <P>Indústria: </P>
+                                    <P>66,1%</P>
+                                </div>
+
+                                <div>
+                                    <P>Abastecimento Rural: </P>
+                                    <P>2,4%</P>
+                                </div>
+                            </div>
+
+
+                        </GraphicFlex>
+                        
+                    </GraphicOne>                   
+                </Flex>
+
+            </FlexGraphic>
+        </Section>
     )
 }

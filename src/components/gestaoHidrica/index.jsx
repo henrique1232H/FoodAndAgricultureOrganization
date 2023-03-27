@@ -6,22 +6,22 @@ const Div = styled.div`
 `
 
 const DivText = styled.div`
+    width: 100%;
     height: 100vh;
-    background: #fff;
-    width: 30%;
-    border-top-right-radius:  20%;
-    border-bottom-right-radius: 20%;
-    box-shadow: 5px 5px 10px 1px #ccc;
+    background: rgba(0,0,0, 0.7);
     display: flex;
     flex-direction: column;
-    padding-top: 10rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 
 `
 
 const H3 = styled.h3`
     height: 14vh;
     width: 60%;
-    margin-left: 7rem;
+    color: #fff;
+    font-weight: 800;
     text-align: center;
     font-size: 3rem;
 `
@@ -39,12 +39,12 @@ const Paragrafos = styled.div`
 `
 
 const P = styled.p`
-    font-size: 1.4rem;
+    font-size: 2rem;
+    color: #fff;
+    padding-left: 6rem;
+    width: 80%;
 `
 
-const Subtitle = styled.h3`
-    margin-bottom: 3rem;
-`
 
 export default function Agua() {
 
@@ -54,11 +54,9 @@ export default function Agua() {
 
                 
 
-                <H3>Gestão hídrica na produção animal</H3>
+                <H3>Gestão hídrica na produção animal uso mais eficiente dos recursos</H3>
 
                 <Linha />
-
-                <Subtitle>Uso mais eficiente dos recursos</Subtitle>
 
                 <Paragrafos>
 
@@ -75,9 +73,6 @@ export default function Agua() {
 
 
             </DivText>
-
-            <div>
-            </div>
         </Div>
     )
 }
