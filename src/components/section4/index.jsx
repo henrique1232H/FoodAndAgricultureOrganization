@@ -8,7 +8,7 @@ export function SectionFour() {
         <div className="containerFour">
             <h2>Aplicação do manual da FAO “avaliação sobre uso da água na produção animal e na cadeia de suprimentos” em uma bacia hidrográfica de estudo no sul do Brasil</h2>
 
-            <div className="flexGraphics ">
+            <div className="flexGraphic ">
 
                     <div>
 
@@ -23,6 +23,8 @@ export function SectionFour() {
                     </div>
 
                     <div className="flexText2">
+
+                        <div className="block">
                         <p>Ano do estudo: 2018</p>
 
                         <p>Questionários para coleta de dados aplicados entre os anos de 2018 e 2019 em 115 fazendas:</p>
@@ -41,6 +43,8 @@ export function SectionFour() {
 
 
                         <p>Região com tradição em produção animal e agricultura familiar</p>
+
+                        </div>
    
                     </div>
             </div>

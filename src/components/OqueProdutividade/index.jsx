@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 import cowABC from "../../assets/img/cowABC.jpg"
+import noWater from "../../assets/img/noWater.avif"
 
 const Section = styled.div`
     height: auto;
@@ -13,7 +14,7 @@ const Section = styled.div`
 const Card = styled.div`
     height: 100%;
     min-height: 10vh;
-    max-height: 100vh;
+    max-height: 120vh;
     width: 60%;
     padding: 4rem;
     box-shadow: 10px 10px 10px 10px #ccc;
@@ -24,7 +25,7 @@ const Card = styled.div`
 const Img = styled.img`
     height: 100%;
     min-height: 10vh;
-    max-height: 90vh;
+    max-height: auto;
     width: 100%;
     min-width: 10%;
     max-width: 100%;
@@ -69,6 +70,9 @@ export default function ProdutividadeHidrica() {
                 
 
                 <BlockText>
+
+                    <Img src={noWater} />
+
                     <H3>Impacto da produção animal na escassez hídrica</H3>
 
                     <P>A mesma quantidade de consumo de água em lugares diferentes não produz o mesmo impacto ambiental porque a disponibilidade hídrica e a vulnerabilidade ambiental não são homogêneas em todo mundo.</P>
