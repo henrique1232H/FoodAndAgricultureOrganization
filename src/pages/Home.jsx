@@ -14,6 +14,7 @@ import { SectionEight } from "../components/section8"
 import { SectionNone } from "../components/section9"
 import "./style.css"
 import Plano from "../components/PlanoNacional"
+import ProdutividadeHidrica from "../components/OqueProdutividade"
 
 
 export function Home() {
@@ -32,9 +33,12 @@ export function Home() {
 
             <Produtividades />
 
+
             <FAO />
             
             <Plano />
+
+            <ProdutividadeHidrica />
 
             <SectionFour />
 

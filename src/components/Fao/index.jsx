@@ -25,7 +25,7 @@ const H3 = styled.h3`
 const Linha = styled.div`
     height: 0.2rem;
     width: 100%;
-    background: #ffe100;
+    background: #ccc;
     margin-bottom: 2rem;
 `
 

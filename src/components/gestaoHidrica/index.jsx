@@ -2,7 +2,7 @@ import styled from "styled-components";
 import "./style.css"
 
 const Div = styled.div`
-    height: 100vh;
+    height: auto;
 `
 
 const DivText = styled.div`
