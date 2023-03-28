@@ -10,13 +10,11 @@ const Section = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 4rem;
 `
 
 const BlockText = styled.div`
     height: 80vh;
     width: 35%;
-    margin-right: 10rem;
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 3rem;
 
@@ -26,14 +24,12 @@ const BlockText = styled.div`
 
 const FlexGraphic = styled.div`
     display: flex;
-    flex-direction: row;
-
-
 `
 
 const Flex = styled.div`
     display: flex;
-
+    align-items: center;
+    justify-content: space-around;
 `
 
 const Linha = styled.div`

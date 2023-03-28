@@ -4,7 +4,8 @@ import { Water } from "../components/gestaoDeAgua"
 import { SectionTen } from "../components/section10"
 import Animals  from "../components/Animals"
 import Agua from "../components/gestaoHidrica"
-import { SectionThree } from "../components/section3"
+import Produtividades from "../components/Produtividade"
+import FAO from "../components/Fao"
 import { SectionFour } from "../components/section4"
 import { Caracteristica } from "../components/section5"
 import { SectionSix } from "../components/section6"
@@ -28,7 +29,9 @@ export function Home() {
 
             <Graphic />
 
-            <SectionThree />
+            <Produtividades />
+
+            <FAO />
 
             <SectionFour />
 
