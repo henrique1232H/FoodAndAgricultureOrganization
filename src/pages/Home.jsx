@@ -13,6 +13,7 @@ import { SectionSeven } from "../components/section7"
 import { SectionEight } from "../components/section8"
 import { SectionNone } from "../components/section9"
 import "./style.css"
+import Plano from "../components/PlanoNacional"
 
 
 export function Home() {
@@ -32,6 +33,8 @@ export function Home() {
             <Produtividades />
 
             <FAO />
+            
+            <Plano />
 
             <SectionFour />
 
