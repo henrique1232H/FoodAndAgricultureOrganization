@@ -7,8 +7,7 @@ import Agua from "../components/gestaoHidrica"
 import Produtividades from "../components/Produtividade"
 import FAO from "../components/Fao"
 import { SectionFour } from "../components/section4"
-import { Caracteristica } from "../components/section5"
-import { SectionSix } from "../components/section6"
+import { Caracteristica } from "../components/Carousel"
 import { SectionSeven } from "../components/section7"
 import { SectionEight } from "../components/section8"
 import { SectionNone } from "../components/section9"
@@ -44,7 +43,6 @@ export function Home() {
 
             <Caracteristica />
 
-            <SectionSix />
 
             <SectionSeven />
 

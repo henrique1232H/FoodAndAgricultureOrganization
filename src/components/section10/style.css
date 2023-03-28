@@ -1,7 +1,5 @@
-.ondas {
-    background-image: url("./assets/ondas.svg");
-    height: 60vh;
-    width: 100%;
+.containerSectionTen h3 {
+    text-align: center !important;
 }
 
 .flexSectionTen {

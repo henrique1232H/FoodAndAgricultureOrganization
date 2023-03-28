@@ -29,9 +29,13 @@
     box-shadow: 10px 10px 10px 10px #ccc;
 }
 
+.block h2 {
+    font-weight: 800;
+    width: 100%;
+}
+
 .flexText2 p {
     font-size: 20px;
-    padding-left: 4rem;
 }
 
 ul {
@@ -42,7 +46,8 @@ ul {
 }
 
 ul li {
-    font-size: 1.6rem;
+    list-style: none;
+    font-size: 1.9rem;
     color: #153C52;
 }
 

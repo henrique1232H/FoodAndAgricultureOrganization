@@ -25,7 +25,7 @@ export function SectionFour() {
                     <div className="flexText2">
 
                         <div className="block">
-                        <p>Ano do estudo: 2018</p>
+                        <h2>Ano do estudo: 2018</h2>
 
                         <p>Questionários para coleta de dados aplicados entre os anos de 2018 e 2019 em 115 fazendas:</p>
     
@@ -33,14 +33,11 @@ export function SectionFour() {
                             <li>37 fazendas com produção de SUÍNOS</li>
                             <li>41 fazendas com produção de AVES</li>
                             <li>67 fazendas com produção de LEITE</li>
-                        </ul>
-
-                        <ul>
                             <li>57 fazendas - sistema à pasto</li>
                             <li>07 fazendas -nsistema semi-confinado</li>
                             <li> 03 fazendas - sistema confinado</li>
-                        </ul>
 
+                        </ul>
 
                         <p>Região com tradição em produção animal e agricultura familiar</p>
 
