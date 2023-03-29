@@ -3,7 +3,7 @@ import styled from "styled-components"
 import Distribuicao from "../../assets/svg/graphic/graphic-two.svg"
 
 const Section = styled.div`
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,6 +18,7 @@ const BlockText = styled.div`
     min-width: 30%;
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 3rem;
+    background: yellow;
 
 `
 

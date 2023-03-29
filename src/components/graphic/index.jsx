@@ -6,30 +6,41 @@ import Doughnuts from "../graphicsChart/Doughnuts";
 
 
 const Section = styled.div`
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
+
 `
 
 const BlockText = styled.div`
-    height: 80vh;
-    width: 35%;
+    height: 100%;
+    min-height: 10vh;
+    max-height: 50vh;
+    width: 100%;
+    min-width: 30%;
+    max-width: 40%;
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 3rem;
 
+    @media screen and (max-width: 40rem) {
+        margin-top: 10rem;
+        max-width: 100%;
+    }
+
+
 `
 
 
-
-const FlexGraphic = styled.div`
-    display: flex;
-`
 
 const Flex = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media screen and (max-width: 40rem)     {
+        flex-direction: column;
+    }
 `
 
 const Linha = styled.div`
@@ -65,7 +76,7 @@ export function Graphic() {
     return ( 
         <Section className="containerGraphic">
             
-            <FlexGraphic>
+
 
                 <Flex>
 
@@ -74,7 +85,7 @@ export function Graphic() {
 
                     <Linha />                    
 
-                    <P className="yat">Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </P>
+                    <P>Estima-se que <span className="weight">41% da água</span> utilizada na <span className="weight">agricultura</span> seja para a produção de culturas destinadas a <span className="weight">produção animal</span> <a href="#">[1]</a>  </P>
 
                     </BlockText>
                     
@@ -94,7 +105,6 @@ export function Graphic() {
                     </GraphicOne>                   
                 </Flex>
 
-            </FlexGraphic>
         </Section>
     )
 }

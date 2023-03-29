@@ -1,18 +1,4 @@
 
-.background2 {
-    background-image: url("../../assets/svg/background.svg");
-    width: 100%;
-    padding-top: 10rem;
-    padding-left: 2rem;
-    padding-bottom: 50rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-    flex-wrap: wrap;
-}
-
 .impact {
     margin-bottom: 2rem;
 }
