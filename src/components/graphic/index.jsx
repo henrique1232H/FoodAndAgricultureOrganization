@@ -16,7 +16,7 @@ const Section = styled.div`
 const BlockText = styled.div`
     height: 100%;
     min-height: 10vh;
-    max-height: 50vh;
+    max-height: auto;
     width: 100%;
     min-width: 30%;
     max-width: 40%;
@@ -38,7 +38,7 @@ const Flex = styled.div`
     align-items: center;
     justify-content: space-around;
 
-    @media screen and (max-width: 40rem)     {
+    @media screen and (max-width: 50rem)     {
         flex-direction: column;
     }
 `
