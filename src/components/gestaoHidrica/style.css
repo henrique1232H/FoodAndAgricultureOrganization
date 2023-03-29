@@ -4,3 +4,9 @@
     background-size: 100%;
     background-position: 10%;
 }
+
+@media screen and (max-width: 70rem) {
+    .aguaBackground {
+        background: none;
+    }
+}       

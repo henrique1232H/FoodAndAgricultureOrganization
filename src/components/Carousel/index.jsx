@@ -10,10 +10,9 @@ import chicken from "../../assets/svg/animals/chicken.jpg"
 const Img = styled.img`
     height: 100%;
     min-height: 20vh;
-    max-height: 60vh;
+    max-height: 50vh;
     background-size: cover;
-    background-position: center center;
-    background-position: 0%;
+    background-position: 1rem 2rem;
 
 `
 

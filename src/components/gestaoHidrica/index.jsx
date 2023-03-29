@@ -2,11 +2,17 @@ import styled from "styled-components";
 import "./style.css"
 
 const Div = styled.div`
-    height: auto;
+    height: 100vh;
+
+    @media screen and (max-width: 70rem) {
+        height: auto;
+    }
 `
 
 const DivText = styled.div`
     width: 100%;
+    min-width: 20%;
+    max-width: 100%;
     height: 100vh;
     background: rgba(0,0,0, 0.7);
     display: flex;
@@ -15,10 +21,15 @@ const DivText = styled.div`
     justify-content: center;
     padding: 1rem;
 
+    @media screen and (max-width: 70rem) {
+        width: 100%;
+        height: auto;
+    }
+
 `
 
 const H3 = styled.h3`
-    height: 14vh;
+    height: 24vh;
     width: 60%;
     color: #fff;
     font-weight: 800;
@@ -32,6 +43,10 @@ const Linha = styled.div`
     width: 90%;
     background: #ccc;
     margin-bottom: 2rem;
+
+    @media screen and (max-width: 70rem) {
+        display: none;
+    }
 `
 
 const Paragrafos = styled.div`
