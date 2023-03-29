@@ -18,7 +18,6 @@ const BlockText = styled.div`
     min-width: 30%;
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 3rem;
-    background: yellow;
 
 `
 
