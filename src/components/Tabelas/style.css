@@ -1,3 +1,8 @@
+
+.img {
+    background-image: url("../../assets/img/dropOfWater.jpg");
+}
+
 .containerSectionSix {
     display: flex;
     justify-content: center;

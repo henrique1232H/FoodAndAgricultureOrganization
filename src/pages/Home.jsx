@@ -8,12 +8,13 @@ import Produtividades from "../components/Produtividade"
 import FAO from "../components/Fao"
 import { SectionFour } from "../components/AplicacaoFao"
 import { Caracteristica } from "../components/Carousel"
-import { SectionSeven } from "../components/section7"
+import  SectionSeven  from "../components/ProdutividadeHidricaSuinosEAves"
 import { SectionEight } from "../components/section8"
 import { SectionNone } from "../components/section9"
 import "./style.css"
 import Plano from "../components/PlanoNacional"
 import ProdutividadeHidrica from "../components/OqueProdutividade"
+import Tabelas from "../components/Tabelas"
 
 
 export function Home() {
@@ -43,6 +44,7 @@ export function Home() {
 
             <Caracteristica />
 
+            <Tabelas />
 
             <SectionSeven />
 
