@@ -22,7 +22,7 @@ const BlockText = styled.div`
     @media screen and (max-width: 40rem) {
         height: 100%;
         min-height: 20vh;
-        max-height: 90vh;
+        max-height: auto;
         width: 100%;
         max-width: 100%;
     }
