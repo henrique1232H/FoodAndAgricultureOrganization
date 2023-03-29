@@ -7,7 +7,7 @@ import pig from "../../assets/svg/animals/pig-gc.jpg"
 import chicken from "../../assets/svg/animals/chicken.jpg"
 
 
-const Img = styled.img`
+const Imgss = styled.img`
     height: 100%;
     min-height: 20vh;
     max-height: 50vh;
@@ -28,9 +28,9 @@ export function Caracteristica() {
             <Carousel controls={true} indicators={false} className="carousel">
                 <Carousel.Item className="carouselItem">
 
-                    <figure className="imgs">
+                    <figure className="figureImg">
 
-                        <Img src={cow} />
+                        <Imgss src={cow} />
 
                         <figcaption>
                             
@@ -51,9 +51,9 @@ export function Caracteristica() {
                 
                 <Carousel.Item interval={3500} className="carouselItem">
 
-                    <figure className="imgs">
+                    <figure className="figureImg">
 
-                        <Img src={pig} />
+                        <Imgss src={pig} />
 
 
                         <figcaption>
@@ -71,9 +71,9 @@ export function Caracteristica() {
 
                 <Carousel.Item interval={3500} className="carouselItem">
 
-                    <figure className="imgs">
+                    <figure className="figureImg">
 
-                        <Img src={chicken} />
+                        <Imgss src={chicken} />
                        
 
                         <figcaption>
