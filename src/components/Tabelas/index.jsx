@@ -68,7 +68,7 @@ const Title = styled.th`
 export default function Tabelas() {
 
     return (
-        <Section className="img">
+        <Section className="imgs">
                 <Table>
                     <Thead>
                         <Tr>
