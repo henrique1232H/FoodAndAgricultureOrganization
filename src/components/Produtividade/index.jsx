@@ -19,6 +19,14 @@ const BlockText = styled.div`
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 3rem;
 
+    @media screen and (max-width: 40rem) {
+        height: 100%;
+        min-height: 20vh;
+        max-height: 90vh;
+        width: 100%;
+        max-width: 100%;
+    }
+
 `
 
 
@@ -33,6 +41,7 @@ const FlexGraphic = styled.div`
 const Flex = styled.div`
     display: flex;
     justify-content: space-around;
+    gap: 1rem;
 
     @media (max-width: 70rem)   {
 
