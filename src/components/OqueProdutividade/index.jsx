@@ -9,6 +9,10 @@ const Section = styled.div`
     justify-content: space-between;
     padding: 0 3rem;
     gap: 3rem;
+
+    @media screen and (max-width: 40rem) {
+        flex-direction: column;
+    }
 `
 
 const Card = styled.div`
@@ -20,6 +24,10 @@ const Card = styled.div`
     box-shadow: 10px 10px 10px 10px #ccc;
     display: flex;
     flex-direction: column;
+
+    @media screen and (max-width: 40rem) {
+        width: 100%;
+    }
 
 `
 const Img = styled.img`

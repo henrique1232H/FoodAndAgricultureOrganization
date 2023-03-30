@@ -12,6 +12,10 @@ const Section = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 0 4rem;
+    
+    @media screen and (max-width: 40rem){
+        height: auto;
+    }
 `
 
 const BlockText = styled.div`
@@ -22,6 +26,10 @@ const BlockText = styled.div`
     max-width: 40%;
     min-width: 30%;
     padding: 3rem;
+
+    @media screen and (max-width: 40rem) {
+        min-width: 100%;
+    }
 
 `
 

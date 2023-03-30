@@ -1,6 +1,16 @@
 import "./style.css"
 import graphicFive from "../../assets/svg/graphic/graphic-five.svg"
 
+import styled from "styled-components"
+
+const Flex = styled.div`
+    display: flex;
+    gap: 4rem;
+
+    @media screen and (max-width: 40rem) {
+        flex-direction: column;
+    }
+`
 
 export function SectionFour() {
 
@@ -8,7 +18,7 @@ export function SectionFour() {
         <div className="containerFour">
             <h2>Aplicação do manual da FAO “avaliação sobre uso da água na produção animal e na cadeia de suprimentos” em uma bacia hidrográfica de estudo no sul do Brasil</h2>
 
-            <div className="flexGraphic ">
+            <Flex>
 
                     <div>
 
@@ -44,7 +54,7 @@ export function SectionFour() {
                         </div>
    
                     </div>
-            </div>
+            </Flex>
         </div>
     )
 }

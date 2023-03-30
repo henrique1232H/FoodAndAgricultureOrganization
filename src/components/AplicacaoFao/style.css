@@ -11,11 +11,6 @@
     width: 80%;
 }
 
-.flexGraphic {
-    display: flex;
-    gap: 4rem;
-}
-
 
 .flexText2 {
     display: flex;
