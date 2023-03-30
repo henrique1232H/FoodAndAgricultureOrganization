@@ -18,7 +18,13 @@ const Section = styled.section`
 
 const Flex = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 14rem;
+
+    @media screen and (max-width: 40rem) {
+        flex-direction: column;
+    }
 
 `
 const H3 = styled.h3`
@@ -39,6 +45,12 @@ const BlockText = styled.div`
     max-width: 40%;
     min-width: 30%;
     padding: 3rem;
+
+    @media screen and (max-width: 40rem) {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+    }
 
 `
 
