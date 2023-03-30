@@ -13,15 +13,25 @@ const Flex = styled.div`
 
 const Card = styled.div`
     padding: 1rem;
-    box-shadow: 10px 10px 10px 10px #ccc;
+
+    transition: 300ms all ease-in-out;
+
+    :hover {
+         box-shadow: 10px 10px 10px 10px #ccc;
+    }
+   
 `
 
+const H2 = styled.h2`
+    font-weight: 800;
+`
 
 export function ProdutividadeHídricaLeite() {
 
     return (
         <section className="Section8">
 
+                <H2>Produtividade Hídrica leite [Kg leite corrido/m3 de água]</H2>
 
                 <div className="flexGraphics">
 
@@ -77,11 +87,11 @@ export function ProdutividadeHídricaLeite() {
                 <div className="flexA">
 
                     <p>Links de estudos: 
-                        <a href="https://www.mdpi.com/2073-4441/12/11/3014">https://www.mdpi.com/2073-4441/12/11/3014</a>
+                        <a href="https://www.mdpi.com/2073-4441/12/11/3014" target="_blank">https://www.mdpi.com/2073-4441/12/11/3014</a>
                     </p>
 
                     <p>
-                        <a href="https://www.sciencedirect.com/science/article/pii/S0048969722042140">https://www.sciencedirect.com/science/article/pii/S0048969722042140</a>
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0048969722042140" target="_blank">https://www.sciencedirect.com/science/article/pii/S0048969722042140</a>
                     </p>
 
                 </div>
