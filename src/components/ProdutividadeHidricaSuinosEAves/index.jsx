@@ -3,6 +3,11 @@ import "./style.css"
 import triangule from "../../assets/svg/triangule.svg"
 import styled from "styled-components"
 
+import porcos from "../../assets/img/porcos.jpg"
+import avicultura from "../../assets/img/avicultura.jpg"
+import TabelaOne from "./Tabelas/TabelaOne"
+import TabelaTwo from "./Tabelas/TabelaTwo"
+
 const Section = styled.section`
     display: flex;
     justify-content: center;
@@ -30,15 +35,63 @@ const P = styled.p`
     line-height: 1.9rem;
 `
 
+const Shadow = styled.div`
+    box-shadow: 0px 10px 10px 1px #ccc;
+`
+
+const Flex = styled.div`
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+
+     @media screen and (max-width: 40rem) {
+        flex-direction: column;
+    }
+`
+
+const Card = styled.div`
+    box-shadow: 0px 10px 10px 2px #ccc;
+    height: auto;
+    width: 45%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+`
+
+const Img = styled.img`
+    height: 50vh;
+    width: 100%;
+`
+
+const H2Card = styled.h2`
+    font-size: 2.5rem;
+`
+
+const H3 = styled.h3`
+    font-size: 2rem;
+`
+
+const H4 = styled.h4`
+    text-align: center;
+`
+
+
+
+
 export default function SectionSeven() {
 
     return (
         <Section>
 
+            <Shadow>
+
             <h1>Produtividade Hídrica Suínos e Aves</h1>
 
             <H2>4 cenários avaliados avaliar o efeito da implementação de melhores práticas agrícolas:</H2>
-           
 
             <BlockText>
 
@@ -90,6 +143,32 @@ export default function SectionSeven() {
 
 
             </BlockText>
+            
+            <Flex>
+
+                <Card>  
+                    <Img src={porcos} />
+
+                    <div>
+                        <H2Card>[kg carcaça/m3 de água]</H2Card>
+                        <H4>suinocultura</H4>
+                    </div>
+
+                    <TabelaOne/>
+                </Card>
+
+                <Card>
+                    <Img src={avicultura} />
+
+                    <div>
+                        <H2Card>[kg carcaça/m3 de água]</H2Card>
+                        <H4>avicultura </H4>
+                    </div>
+
+                    <TabelaTwo />
+                </Card>
+            </Flex>
+            </Shadow> 
         </Section>
     )
 }

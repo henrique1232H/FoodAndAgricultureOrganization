@@ -36,14 +36,6 @@
     position: relative;
 }
 
-.dashed .absolute {
-    position: absolute;
-    display: flex;
-    outline: 0;
-    left: 30%;
-    top: 10%;
-}
-
 .outline {
     gap: 3rem;
 }
