@@ -16,6 +16,13 @@ const Flex = styled.div`
     justify-content: center;
     margin: 0 10rem;
     gap: 4rem;
+
+    @media screen and (max-width: 40rem) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 `
 
 const Block = styled.div`
@@ -30,7 +37,14 @@ const Figure = styled.figure`
     height: 100%;
     min-height: 20vh;
     max-height: 80vh;
-    width: 80%;
+    width: 100%;
+    min-width: 40%;
+    max-width: 80%;
+
+    @media screen and (max-width: 40rem) {
+        width: 100%;
+        max-width: 100%;
+    }
 `
 
 export function EscassezHidrica() {
