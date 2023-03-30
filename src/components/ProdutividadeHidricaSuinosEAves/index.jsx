@@ -7,6 +7,7 @@ import porcos from "../../assets/img/porcos.jpg"
 import avicultura from "../../assets/img/avicultura.jpg"
 import TabelaOne from "./Tabelas/TabelaOne"
 import TabelaTwo from "./Tabelas/TabelaTwo"
+import { ProdutividadeHídricaLeite } from "../ProdutividadeHidricaLeite"
 
 const Section = styled.section`
     display: flex;
@@ -168,6 +169,9 @@ export default function SectionSeven() {
                     <TabelaTwo />
                 </Card>
             </Flex>
+
+
+            <ProdutividadeHídricaLeite />
             </Shadow> 
         </Section>
     )

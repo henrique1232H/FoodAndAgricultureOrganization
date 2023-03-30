@@ -1,12 +1,23 @@
 import "./style.css"
 
-import chickenAround from "../../assets/svg/productAnimals/chickenAround.svg"
-import pigAround from "../../assets/svg/productAnimals/pigsAround.svg"
 import pasto from "../../assets/svg/productHidric/pasto.svg"
 import semiConfinado from "../../assets/svg/productHidric/semiconfinado.svg"
 import confinado from "../../assets/svg/productHidric/confinado.svg"
 
-export function SectionEight() {
+import styled from "styled-components"
+
+const Flex = styled.div`
+    display: flex;
+    gap: 3rem;
+`
+
+const Card = styled.div`
+    padding: 1rem;
+    box-shadow: 10px 10px 10px 10px #ccc;
+`
+
+
+export function ProdutividadeHídricaLeite() {
 
     return (
         <section className="Section8">
@@ -14,19 +25,24 @@ export function SectionEight() {
 
                 <div className="flexGraphics">
 
-                <div className="flexGraphics gap">
+                <Flex>
 
-                    <figure>
+                    <Card>
+                        
+                        <figure>
 
-                        <img src={pasto} alt="" />
+                            <img src={pasto} alt="" />
 
-                        <figcaption>
-                            <p>Média: 1,01 (1,0% / 99,0%)</p>
-                            <p>Min: 0,27 (1,5% / 98,5%)</p>
-                            <p>Max: 1,46(0,7% / 99,3%)</p>
+                            <figcaption className="center">
+                                <p>Média: 1,01 (1,0% / 99,0%)</p>
+                                <p>Min: 0,27 (1,5% / 98,5%)</p>
+                                <p>Max: 1,46(0,7% / 99,3%)</p>
 
-                        </figcaption>
-                    </figure>
+                            </figcaption>
+                        </figure>
+                    </Card>
+
+                    <Card>
 
                     <figure>
 
@@ -38,12 +54,13 @@ export function SectionEight() {
                             <p>Max: 1,11(0,6% / 99,4%)</p>
                         </figcaption>
                     </figure>
+                    </Card>
 
+                    <Card>
                     <figure>
-
                         <img src={confinado} alt="" />
 
-                        <figcaption className="end">
+                        <figcaption className="center">
                             <p>Média: 0,96 (0,8% / 99,2%)</p>
                             <p>Min: 0,89 (0,9% / 99,1%)</p>
                             <p>Max: 1,09(0,7% / 99,3%)</p>
@@ -51,7 +68,11 @@ export function SectionEight() {
                         </figcaption>
                         
                     </figure>
-                </div>
+
+                    </Card>
+
+
+                </Flex>
 
                 <div className="flexA">
 
