@@ -36,7 +36,8 @@ const BlockText = styled.div`
 const Flex = styled.div`
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 8rem;
 
     @media screen and (max-width: 50rem)     {
         flex-direction: column;
