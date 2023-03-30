@@ -41,6 +41,11 @@ const P = styled.p`
 const Shadow = styled.div`
     width: 80%;
     box-shadow: 0px 10px 10px 1px #ccc;
+
+    @media screen and (max-width: 40rem) {
+        width: 100%;
+        box-shadow: none;
+    }
 `
 
 const Flex = styled.div`
@@ -89,11 +94,19 @@ const H4 = styled.h4`
 `
 
 const Center = styled.div`
-    height: 40vh;
+    height: 40vmin;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 40rem) {
+        height: 100vh;
+        min-height: 30vh;
+        max-height: 70vh;
+        width: 100%;
+    }
+    
 `
 
 
