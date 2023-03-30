@@ -1,7 +1,7 @@
 import { Graphic } from "../components/graphic"
 import { Heading } from "../components/header"
 import { Water } from "../components/gestaoDeAgua"
-import { SectionTen } from "../components/section10"
+import  SectionTen  from "../components/Footer"
 import Animals  from "../components/Animals"
 import Agua from "../components/gestaoHidrica"
 import Produtividades from "../components/Produtividade"

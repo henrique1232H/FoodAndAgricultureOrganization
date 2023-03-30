@@ -1,25 +1,30 @@
-import "./style.css"
+import "./style.css";
 
-import ATB from "../../assets/parceiros/ATB.png"
-import daad from "../../assets/parceiros/daad.png"
-import emater from "../../assets/parceiros/emater.png"
-import embrapa from "../../assets/parceiros/embrapa.jpg"
-import universidade from "../../assets/parceiros/Universidade.png"
-import montauri from "../../assets/parceiros/montauri.png"
-import serafina from "../../assets/parceiros/SerafinaCorrea.jpg"
-import serra from "../../assets/parceiros/SerraBrasao.png"
-import guarope from "../../assets/parceiros/Guapore.png"
+import ATB from "../../assets/parceiros/ATB.png";
+import daad from "../../assets/parceiros/daad.png";
+import emater from "../../assets/parceiros/emater.png";
+import embrapa from "../../assets/parceiros/embrapa.jpg";
+import universidade from "../../assets/parceiros/Universidade.png";
+import montauri from "../../assets/parceiros/montauri.png";
+import serafina from "../../assets/parceiros/SerafinaCorrea.jpg";
+import serra from "../../assets/parceiros/SerraBrasao.png";
+import guarope from "../../assets/parceiros/Guapore.png";
 
-console.log("Hello")
+import styled from "styled-components";
 
-export function SectionTen() {
+const Footer = styled.footer`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+
+export default function SectionTen() {
 
     return (
-        <section className="containerSectionTen">
+        <Footer>
 
             
-                    <div className="ondas"></div>
-
                 <div className="flexSectionTen">
 
 
@@ -75,6 +80,6 @@ export function SectionTen() {
 
                         <img src={guarope} alt="" title="Prefeitura de Guaporé" />
                     </div>
-        </section>
+        </Footer>
     )
 }
