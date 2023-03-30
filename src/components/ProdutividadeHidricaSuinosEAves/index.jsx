@@ -29,6 +29,7 @@ const H2 = styled.h2`
 const BlockText = styled.div`
     margin-top: 7rem;
     display: flex;
+    justify-content: center;
     gap: 4rem;
     flex-wrap: wrap;
 `
@@ -82,7 +83,13 @@ const H4 = styled.h4`
     text-align: center;
 `
 
-
+const Center = styled.div`
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
 
 
 export default function SectionSeven() {
@@ -92,9 +99,13 @@ export default function SectionSeven() {
 
             <Shadow>
 
-            <h1>Produtividade Hídrica Suínos e Aves</h1>
+                <Center>
 
-            <H2>4 cenários avaliados avaliar o efeito da implementação de melhores práticas agrícolas:</H2>
+                    <h1>Produtividade Hídrica Suínos e Aves</h1>
+
+                    <H2>4 cenários avaliados avaliar o efeito da implementação de melhores práticas agrícolas:</H2>
+                </Center>
+
 
             <BlockText>
 
