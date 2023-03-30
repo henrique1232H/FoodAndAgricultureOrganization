@@ -26,31 +26,45 @@ import {
         position: 'bottom',
       },
       title: {
-        display: false,
+        display: true,
+        text: 'Impacto da produção animal na escassez hídrica (AWARE)',
       },
     },
-    innerHeight: 100
   };
   
-  const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+  const labels = ['Jan', 'Feb', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', "Jul", "Ago", "Set", "Nov", "Dez"];
   
   export const data = {
     labels,
     datasets: [
       {
-        label: 'Dataset 1',
-        data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-        backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        label: 'Aves',
+        data: labels.map(() => faker.datatype.number({ min: 0, max: 50 })),
+        backgroundColor: 'rgba(0, 255, 4, 0.5)',
       },
       {
-        label: 'Dataset 2',
-        data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+        label: 'Porco',
+        data: labels.map(() => faker.datatype.number({ min: 0, max: 50 })),
         backgroundColor: 'rgba(53, 162, 235, 0.5)',
       },
 
       {
-        
-      }
+        label: 'Leite - sistema à pasto',
+        data: labels.map(() => faker.datatype.number({ min: 0, max: 50 })),
+        backgroundColor: '#ffee00',
+      },
+
+      {
+        label: 'Leite - sistema semi-conf ',
+        data: labels.map(() => faker.datatype.number({ min: 0, max: 50 })),
+        backgroundColor: 'rgba(255, 0, 47, 0.5)',
+      },
+
+      {
+        label: 'Leite - sistema confinado',
+        data: labels.map(() => faker.datatype.number({ min: 0, max: 50 })),
+        backgroundColor: 'rgba(13, 0, 255, 0.5)',
+      },
     ],
   };
   
