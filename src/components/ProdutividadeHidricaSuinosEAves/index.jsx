@@ -8,6 +8,7 @@ import avicultura from "../../assets/img/avicultura.jpg"
 import TabelaOne from "./Tabelas/TabelaOne"
 import TabelaTwo from "./Tabelas/TabelaTwo"
 import { ProdutividadeHídricaLeite } from "../ProdutividadeHidricaLeite"
+import { EscassezHidrica } from "../EscassezHidrica"
 
 const Section = styled.section`
     display: flex;
@@ -37,6 +38,7 @@ const P = styled.p`
 `
 
 const Shadow = styled.div`
+    width: 80%;
     box-shadow: 0px 10px 10px 1px #ccc;
 `
 
@@ -172,6 +174,8 @@ export default function SectionSeven() {
 
 
             <ProdutividadeHídricaLeite />
+
+            <EscassezHidrica />
             </Shadow> 
         </Section>
     )

@@ -23,13 +23,13 @@ import {
     responsive: true,
     plugins: {
       legend: {
-        position: 'top',
+        position: 'bottom',
       },
       title: {
-        display: true,
-        text: 'Chart.js Bar Chart',
+        display: false,
       },
     },
+    innerHeight: 100
   };
   
   const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
@@ -47,6 +47,10 @@ import {
         data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
         backgroundColor: 'rgba(53, 162, 235, 0.5)',
       },
+
+      {
+        
+      }
     ],
   };
   

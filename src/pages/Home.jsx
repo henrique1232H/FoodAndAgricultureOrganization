@@ -9,7 +9,6 @@ import FAO from "../components/Fao"
 import { SectionFour } from "../components/AplicacaoFao"
 import { Caracteristica } from "../components/Carousel"
 import  SectionSeven  from "../components/ProdutividadeHidricaSuinosEAves"
-import { SectionNone } from "../components/section9"
 import "./style.css"
 import Plano from "../components/PlanoNacional"
 import ProdutividadeHidrica from "../components/OqueProdutividade"
@@ -46,9 +45,6 @@ export function Home() {
             <Tabelas />
 
             <SectionSeven />
-
-            <SectionNone />
-
             <SectionTen />
         </div>
     )
