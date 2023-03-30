@@ -10,6 +10,10 @@ const Section = styled.section`
     justify-content: center;
     align-items: center;
     gap: 3rem;
+
+    @media screen and (max-width: 40rem) {
+        height: auto;
+    }
 `
 
 const Flex = styled.div`
@@ -53,6 +57,11 @@ const GraphicOne = styled.div`
     width: 30%;
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 1rem;
+
+    @media screen and (max-width:40rem) {
+        box-shadow: none;
+        width: 100%;
+    }
 
 `
 

@@ -68,8 +68,17 @@ const GraphicOne = styled.div`
     justify-content: center;
     height: 80vh;
     background: #fff;
-    width: 30%;
+    width: 100%;
+    min-width: 10%;
+    max-width: 30%;
     box-shadow: 10px 10px 10px 10px #ccc;
+
+    @media screen and (max-width: 40rem) {
+        background: none;
+        box-shadow: none;
+        width: 100%;
+        min-width: 100%;
+    }
 
 `
 

@@ -5,7 +5,7 @@
     background-position: 10%;
 }
 
-@media screen and (max-width: 70rem) {
+@media screen and (max-width: 50rem) {
     .aguaBackground {
         background: none;
     }
