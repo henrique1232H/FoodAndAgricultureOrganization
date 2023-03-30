@@ -9,6 +9,12 @@ import styled from "styled-components"
 const Flex = styled.div`
     display: flex;
     gap: 3rem;
+
+    @media screen and (max-width: 40rem) {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 `
 
 const Card = styled.div`
@@ -19,11 +25,16 @@ const Card = styled.div`
     :hover {
          box-shadow: 10px 10px 10px 10px #ccc;
     }
+
    
 `
 
 const H2 = styled.h2`
     font-weight: 800;
+`
+
+const Figcaption = styled.figcaption`
+    padding-top: 1rem;
 `
 
 export function ProdutividadeHídricaLeite() {
@@ -43,12 +54,12 @@ export function ProdutividadeHídricaLeite() {
 
                             <img src={pasto} alt="" />
 
-                            <figcaption className="center">
+                            <Figcaption className="center">
                                 <p>Média: 1,01 (1,0% / 99,0%)</p>
                                 <p>Min: 0,27 (1,5% / 98,5%)</p>
                                 <p>Max: 1,46(0,7% / 99,3%)</p>
 
-                            </figcaption>
+                            </Figcaption>
                         </figure>
                     </Card>
 
@@ -58,11 +69,11 @@ export function ProdutividadeHídricaLeite() {
 
                         <img src={semiConfinado} alt="" />
 
-                        <figcaption className="center">
+                        <Figcaption className="center">
                             <p>Média: 0,95 (0,7% / 99,3%)</p>
                             <p>Min: 0,59 (0,8% / 99,2%)</p>
                             <p>Max: 1,11(0,6% / 99,4%)</p>
-                        </figcaption>
+                        </Figcaption>
                     </figure>
                     </Card>
 
@@ -70,12 +81,12 @@ export function ProdutividadeHídricaLeite() {
                     <figure>
                         <img src={confinado} alt="" />
 
-                        <figcaption className="center">
+                        <Figcaption className="center">
                             <p>Média: 0,96 (0,8% / 99,2%)</p>
                             <p>Min: 0,89 (0,9% / 99,1%)</p>
                             <p>Max: 1,09(0,7% / 99,3%)</p>
                             <p>*(% / %) = % água azul / % água verde</p>
-                        </figcaption>
+                        </Figcaption>
                         
                     </figure>
 
