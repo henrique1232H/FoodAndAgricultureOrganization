@@ -39,7 +39,7 @@ const Flex = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8rem;
+    gap: 15rem;
 
     @media screen and (max-width: 50rem)     {
         flex-direction: column;
