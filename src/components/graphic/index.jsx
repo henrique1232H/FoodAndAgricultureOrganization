@@ -72,6 +72,22 @@ const GraphicFlex = styled.div`
     gap: 1rem;
 `
 
+const Img = styled.img`
+    height: 100%
+    min-height: 20vh;
+    max-height: 50vh;
+    width: 100%;
+    min-width: 20%;
+    max-width: 90%;
+
+    @media screen and (max-width: 40rem) {
+        display: block;
+        margin: 0 auto;
+        max-width: 60%
+    }
+
+    `
+
 export function Graphic() {
 
     
@@ -99,7 +115,7 @@ export function Graphic() {
         
                         <GraphicFlex className="GraphicFlex">
                         
-                            <img src={GraphicOnes} />
+                            <Img src={GraphicOnes} />
 
                         </GraphicFlex>
                         
