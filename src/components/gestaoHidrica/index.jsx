@@ -58,6 +58,11 @@ const P = styled.p`
     color: #fff;
     padding-left: 6rem;
     width: 80%;
+
+    @media screen and (max-width:40rem) {
+        padding: 0;
+        width: 100%;
+    }
 `
 
 
