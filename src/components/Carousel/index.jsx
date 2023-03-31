@@ -16,12 +16,21 @@ const Imgss = styled.img`
 
 `
 
+const Section = styled.section`
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+`
+
 
 export function Caracteristica() {
 
     return (
 
-        <div className="caracteristicas">
+        <Section>
             <h1>Características das fazendas </h1>
 
 
@@ -86,6 +95,6 @@ export function Caracteristica() {
                     
                 </Carousel.Item>
             </Carousel>
-        </div>
+        </Section>
     )
 }
