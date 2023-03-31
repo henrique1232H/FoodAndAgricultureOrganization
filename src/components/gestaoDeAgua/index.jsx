@@ -19,7 +19,7 @@ export function Water() {
 
             <div className="textWater">
 
-                <h1>Estudo de caso em uma bacia hidrográfica no sul do Brasil seguindo as orientações do manual da FAO (2019) “Uso da água em produção animal e cadeia de suprimentos”</h1>
+                <h1>Uso da água na produção animal na região hidrográfica do Guaíba: produtividade e escassez hídrica</h1>
 
             </div>
 
@@ -27,7 +27,7 @@ export function Water() {
 
                 <div className="flex-1">
 
-                    <h3>Por que fazer a gestão dos usos da água na produção animal?</h3>
+                    <h3>Por que fazer a gestão hídrica na produção animal?</h3>
 
                     <div className="p">
 
