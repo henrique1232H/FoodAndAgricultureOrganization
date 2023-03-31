@@ -26,8 +26,8 @@ const BlockText = styled.div`
     padding: 3rem;
 
     @media screen and (max-width: 40rem) {
-        margin-top: 10rem;
-        max-width: 100%;
+        max-width: 80%;
+        height: auto;
     }
 
 
