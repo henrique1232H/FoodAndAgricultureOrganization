@@ -15,6 +15,7 @@ import ProdutividadeHidrica from "../components/OqueProdutividade"
 import Tabelas from "../components/Tabelas"
 
 
+
 export function Home() {
 
     return (
@@ -46,6 +47,7 @@ export function Home() {
 
             <SectionSeven />
             <SectionTen />
+
         </div>
     )
  }
