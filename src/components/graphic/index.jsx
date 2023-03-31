@@ -25,7 +25,7 @@ const BlockText = styled.div`
     box-shadow: 10px 10px 10px 10px #ccc;
     padding: 3rem;
 
-    @media screen and (max-width: 40rem) {
+    @media screen and (max-width: 50rem) {
         max-width: 80%;
         height: auto;
     }
@@ -80,7 +80,7 @@ const Img = styled.img`
     min-width: 20%;
     max-width: 90%;
 
-    @media screen and (max-width: 40rem) {
+    @media screen and (max-width: 50rem) {
         display: block;
         margin: 0 auto;
         max-width: 60%

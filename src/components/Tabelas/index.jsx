@@ -17,18 +17,17 @@ const Section = styled.section`
 
 const Table = styled.table`
   background: rgba(255, 255, 255, 0.6);
-  height: 100%;
-  min-height: 10vh;
-  max-height: 20vh;
+  height: 100vh;
+  min-height: 2vh;
+  max-height: 5vh;
   width: 100%;
-  min-width: 10%;
-  max-width: 40%;
-  border-radius: 2%;
+  min-width: 2%;
+  max-width: 10%;
+  border-radius: 2px;
 
   filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
 
   @media screen and (max-width: 40rem) {
-    overflow-x: scroll;
     height: 10vh;
     width: 20%;
   }
@@ -67,7 +66,7 @@ const Title = styled.th`
 export default function Tabelas() {
   return (
     <Section className="imgs">
-      <Table>
+      <Table className="ABCAD">
         <Thead>
           <Tr>
             <Title colSpan={4}>Consumo de água: Bovinos</Title>

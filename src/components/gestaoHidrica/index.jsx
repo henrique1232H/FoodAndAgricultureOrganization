@@ -4,7 +4,7 @@ import "./style.css"
 const Div = styled.div`
     height: 100vh;
 
-    @media screen and (max-width: 40rem) {
+    @media screen and (max-width: 50rem) {
         height: auto;
     }
 `
@@ -21,7 +21,7 @@ const DivText = styled.div`
     justify-content: center;
     padding: 1rem;
 
-    @media screen and (max-width: 40rem) {
+    @media screen and (max-width: 50rem) {
         width: 100%;
         height: auto;
     }
@@ -44,7 +44,7 @@ const Linha = styled.div`
     background: #ccc;
     margin-bottom: 2rem;
 
-    @media screen and (max-width: 40rem) {
+    @media screen and (max-width: 50rem) {
         display: none;
     }
 `

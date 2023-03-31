@@ -1,11 +1,20 @@
 import "./style.css"
-import cow from "../../assets/svg/cow.svg"
+
+import styled from "styled-components";
+
+const Section = styled.section`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+`
 
 export function Water() {
 
     return (
 
-        <section className="sectionWater">
+        <Section>
 
 
             <div className="textWater">
@@ -42,6 +51,6 @@ export function Water() {
             </div>
 
 
-        </section>
+        </Section>
     )
 }
