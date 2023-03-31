@@ -24,6 +24,10 @@ const H2 = styled.h2`
     width: 60%;
     height: 10vh;
     text-align: center;
+
+    @media screen and (max-width: 40rem) {
+        width: 90%;
+    }
 `
 
 const BlockText = styled.div`
@@ -109,6 +113,12 @@ const Center = styled.div`
     
 `
 
+const PText = styled.div`
+    
+    @media screen and (max-width:40rem) {
+        width: 90%;
+    }
+`
 
 export default function SectionSeven() {
 
@@ -127,7 +137,7 @@ export default function SectionSeven() {
 
             <BlockText>
 
-                <div>
+                <PText>
                     <P>Cenário 1. Rendimento médio anual das culturas (cenário atual)</P>
 
                     <P>Cenário 2. Redução de 50% da evaporação do solo</P>
@@ -138,14 +148,14 @@ export default function SectionSeven() {
 
                     <P className="spac">Link para o estudo: <a href="https://www.mdpi.com/2073-4441/12/11/3014">https://www.mdpi.com/2073-4441/12/11/3014</a> </P>
 
-                </div>
+                </PText>
 
 
                 <div className="spacing">
                     <img src={triangule} alt="" />
                 </div>
 
-                <div>
+                <PText>
                     <P>Rotações de cultura analisadas:</P>
 
                     <P>Soja - <span className="strong">SAFRA*</span> - azevém</P>
@@ -171,7 +181,7 @@ export default function SectionSeven() {
                             <P>Rio Grande do Sul</P>
                         </div>
                     </div>
-                </div>
+                </PText>
 
 
             </BlockText>

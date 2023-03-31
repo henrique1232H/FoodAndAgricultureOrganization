@@ -27,6 +27,10 @@ const Flex = styled.div`
 
 const Block = styled.div`
     width: 60%;
+
+    @media screen and (max-width: 40rem) {
+        width:90%;
+    }
 `
 
 const P = styled.p`

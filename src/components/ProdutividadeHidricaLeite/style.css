@@ -41,6 +41,6 @@
 
 @media (max-width:70rem) {
     .center, .end {
-        text-align: start;
+        text-align: center;
     }
 }
