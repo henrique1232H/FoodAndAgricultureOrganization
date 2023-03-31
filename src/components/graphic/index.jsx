@@ -1,6 +1,8 @@
 import "./style.css";
 
 import styled from "styled-components";
+
+import GraphicOnes from "../../assets/svg/graphic/graphic-one.svg"
 import Doughnuts from "../graphicsChart/Doughnuts";
 
 
@@ -94,12 +96,10 @@ export function Graphic() {
 
                     <GraphicOne>
 
-                        <h3>Total de água consumidas nas bacias hidrogra (Em 2019)</h3>    
-
         
                         <GraphicFlex className="GraphicFlex">
                         
-                            <Doughnuts />
+                            <img src={GraphicOnes} />
 
                         </GraphicFlex>
                         
