@@ -61,6 +61,8 @@ const Abc = styled.th`
 const Title = styled.th`
   text-align: center;
   font-size: 2rem;
+
+  
 `;
 
 export default function Tabelas() {

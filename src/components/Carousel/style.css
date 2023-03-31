@@ -39,25 +39,23 @@
 .carousel .carousel-control-prev span,
 .carousel .carousel-control-next span {
     width: 80%;
-    height: 50vh;
+    min-width: 10%;
+    max-width: 70%;
+    height: 100%;
+    min-height: 10vh;
+    max-height: 60vh;
 } 
 
 
-@media (max-width: 70rem) {
-    .caracteristicas {
-        background: none;
-    }
+@media screen and (max-width: 40rem) {
 
     .carousel {
         width: 100%;
+        min-width: none;
+        max-width: 90%;
         height: 40vh;
-        padding-left: 0;
     }
 
-   .imgs img {
-    margin-left: 0.5rem;
-    height: 32vh !important;
-   }
 
     .carousel figcaption p {
         text-align: center;
