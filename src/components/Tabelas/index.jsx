@@ -28,7 +28,7 @@ const Table = styled.table`
   filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
 
   @media screen and (max-width: 40rem) {
-    overflow-x: scroll
+    overflow-x: scroll;
     height: 10vh;
     width: 20%;
   }
