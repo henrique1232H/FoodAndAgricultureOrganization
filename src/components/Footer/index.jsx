@@ -46,10 +46,24 @@ const Final = styled.div`
     display: flex;
     width: 100%;
     justify-content: space-between;
+    
+    @media screen and (max-width: 40rem) {
+        gap: 4rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 `
 
 const Img = styled.img`
-    height: 11.8vh;
+    height: 100%;
+    min-height: 5vh;
+    max-height: 11.6vh;
+
+    @media screen and (max-width: 40rem) {
+        width: 50%;
+        max-height: 15vh;
+    }
 `
 
 export default function SectionTen() {
