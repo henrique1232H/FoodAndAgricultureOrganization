@@ -126,6 +126,8 @@ export default function SectionSeven() {
         <Section>
 
             <Shadow>
+                <div className="AIMG"> 
+                    <div className="AIMGTEXT">
 
                 <Center>
 
@@ -186,6 +188,9 @@ export default function SectionSeven() {
 
             </BlockText>
             
+                    </div>
+
+                </div>
             <Flex>
 
                 <Card>  

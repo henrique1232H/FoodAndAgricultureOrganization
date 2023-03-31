@@ -1,4 +1,12 @@
+.AIMG {
+    background-image: url("../../assets/img/waterVirando.jpg");
+    background-size: cover;
+    background-position: center center;
+}
 
+.AIMGTEXT {
+    background: linear-gradient(180.07deg, #FFFFFF 0.58%, rgba(255, 255, 255, 0) 34.16%, rgba(255, 255, 255, 0) 71.21%, #FFFFFF 96.16%);
+}
 
 .inputs {
     display: flex;
@@ -22,7 +30,12 @@
     margin-top: 5rem;
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 40rem) {
+
+    .AIMG {
+        background: none;
+    }
+
     .SevenText {
         padding-top: 10rem;
     }

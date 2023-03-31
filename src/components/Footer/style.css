@@ -1,19 +1,10 @@
 
-.final img {
-    height: 11.8vh;
-}
-
-.final {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
 
 .test {
     height: 80vh;
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 40rem) {
 
     .final {
         display: flex;

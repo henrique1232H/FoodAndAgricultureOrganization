@@ -39,7 +39,17 @@ const P = styled.p`
 ` 
 
 const Block = styled.div`
-     
+
+`
+
+const Final = styled.div`
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+`
+
+const Img = styled.img`
+    height: 11.8vh;
 `
 
 export default function SectionTen() {
@@ -86,23 +96,23 @@ export default function SectionTen() {
 
       
                     <h3>Parceiros</h3>
-                    <div className="final">
+                    <Final>
 
                             
-                        <img src={daad} alt="" />
+                        <Img src={daad} alt="" />
                         
-                        <img src={ATB} alt="" />
-                        <img src={universidade} alt="" />
-                        <img src={embrapa} alt="" />
-                        <img src={emater} alt="" />
-                        <img src={serafina} alt="" title="Prefeitura de Serafina Corrêa"/>
+                        <Img src={ATB} alt="" />
+                        <Img src={universidade} alt="" />
+                        <Img src={embrapa} alt="" />
+                        <Img src={emater} alt="" />
+                        <Img src={serafina} alt="" title="Prefeitura de Serafina Corrêa"/>
 
-                        <img src={serra} alt="" title="Prefeitura de União da serra"/>
+                        <Img src={serra} alt="" title="Prefeitura de União da serra"/>
 
-                        <img src={montauri} alt="" title="Prefeitura de Montauri" />
+                        <Img src={montauri} alt="" title="Prefeitura de Montauri" />
 
-                        <img src={guarope} alt="" title="Prefeitura de Guaporé" />
-                    </div>
+                        <Img src={guarope} alt="" title="Prefeitura de Guaporé" />
+                    </Final>
         </Footer>
     )
 }
