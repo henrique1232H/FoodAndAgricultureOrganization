@@ -13,7 +13,7 @@ const Section = styled.section`
     justify-content: center;
     flex-wrap: nowrap;
 
-    @media screen and (max-width: 40rem) {
+    @media screen and (max-width: 50rem) {
         height: auto;
     }
 `
@@ -38,7 +38,7 @@ const FlexAnimals = styled.div`
     align-items: center;
     gap: 2rem;
 
-    @media screen and (max-width: 40rem)   {
+    @media screen and (max-width: 50rem)   {
             flex-direction:  column;
     }
 
@@ -47,12 +47,10 @@ const FlexAnimals = styled.div`
 
 const Card = styled.div`
     height: auto;
-    min-height: 10vh;
-    max-height: 70vh;
     width: 100%;
     background: #fff;
     border: none !important;
-    padding: 4rem 4rem;
+    padding: 4rem;
     transition: 300ms all ease-in-out;
 
     :hover {
