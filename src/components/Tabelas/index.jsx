@@ -21,14 +21,18 @@ const Table = styled.table`
     background: rgba(255, 255, 255, 0.6);
     height: 100%;
     min-height: 10vh;
-    max-height: 30vh;
+    max-height: 20vh;
     width: 100%;
-    min-width: 20%;
+    min-width: 10%;
     max-width: 40%;
     border-radius: 2%;
 
-
     filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
+
+   @media screen and (max-width: 40rem) {
+        height: 10vh;
+        width: 20%
+   }
 `
 const Tr = styled.tr`
     border: 1px solid #FFF;

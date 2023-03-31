@@ -6,7 +6,7 @@ import emater from "../../assets/parceiros/emater.png";
 import embrapa from "../../assets/parceiros/embrapa.jpg";
 import universidade from "../../assets/parceiros/Universidade.png";
 import montauri from "../../assets/parceiros/montauri.png";
-import serafina from "../../assets/parceiros/SerafinaCorrea.jpg";
+import serafina from "../../assets/parceiros/Serra.jpeg";
 import serra from "../../assets/parceiros/SerraBrasao.png";
 import guarope from "../../assets/parceiros/Guapore.png";
 
