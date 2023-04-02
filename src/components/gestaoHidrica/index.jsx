@@ -29,7 +29,7 @@ const DivText = styled.div`
 `
 
 const H3 = styled.h3`
-    height: 24vh;
+    height: 10vh;
     width: 60%;
     color: #fff;
     font-weight: 800;
@@ -74,16 +74,16 @@ export default function Agua() {
 
                 
 
-                <H3>Gestão hídrica na produção animal: Uso mais eficiente dos recursos</H3>
+                <H3>Só podemos manejar o que conhecemos</H3>
 
                 <Linha />
 
                 <Paragrafos>
 
 
-                <P>•As grande maioria das fazendas de produção animal <span className="weight">NÃO</span> mensuram o consumo de água para a produção animal. </P>
+                <P>•Ao medir o consumo, o produtor irá saber onde é mais ou menos eficiente no uso da água e poderá implementar boas práticas hídricas.</P>
 
-                <P>• <span className="weight">NÃO</span> se gerencia o que <span className="weight">NÃO</span> se mede!!</P>
+                <P>• O desconhecimento da demanda hídrica da atividade pode comprometer sua continuidade.</P>
 
                 <P>•Ao <span className="weight">medir</span> o consumo de água, o <span className="weight"> produtor compreende os valores</span>  e pode implementar <span className="weight">boas práticas</span> para usar os recursos hídricos de forma mais eficiente.</P>
 
