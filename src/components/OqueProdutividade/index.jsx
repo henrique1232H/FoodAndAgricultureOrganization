@@ -8,14 +8,10 @@ import Iframe from "react-iframe";
 const Section = styled.div`
     height: auto;
     display: flex;
-    justify-content: space-between;
-    padding: 0 3rem;
-    gap: 3rem;
-
-    @media screen and (max-width: 40rem) {
-        flex-direction: column;
-    }
-`
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    `
 
 const Card = styled.div`
     height: 100%;
@@ -45,11 +41,11 @@ const Img = styled.img`
 
 const H3 = styled.h3`
     font-size: 3rem;
-`
+    `
 
 const P = styled.p`
     font-size: 2rem;
-`
+    `
 
 const BlockText = styled.div`
     display: flex;
@@ -57,9 +53,29 @@ const BlockText = styled.div`
     align-items: flex-start;
 `
 
+const Flex = styled.div`
+display: flex;
+justify-content: space-between;
+padding: 0 3rem;
+gap: 3rem;
+
+@media screen and (max-width: 40rem) {
+    flex-direction: column;
+}
+    
+`
+
+const NewH3 = styled.h3` 
+    font-size: 3rem;
+    margin-top:4rem;
+    width:80%;
+`
+
 export default function ProdutividadeHidrica() {
     return (
         <Section>
+
+            <Flex>
             <Card>
 
                 <Img src={cowABC} />
@@ -86,12 +102,17 @@ export default function ProdutividadeHidrica() {
 
                     <Img src={noWater} />
 
-                    <H3>Impacto da produção animal na escassez hídrica</H3>
+                    <H3>Escassez hídrica</H3>
 
-                    <P>A mesma quantidade de consumo de água em lugares diferentes não produz o mesmo impacto ambiental porque a disponibilidade hídrica e a vulnerabilidade ambiental não são homogêneas em todo mundo.</P>
-                    <P>Logo, a avaliação de impacto sobre a escassez hídrica fornece informações adicionais para intepretar as contribuições potenciais para o impacto ambiental da produção animal.</P>
+                    <P>O mesmo consumo de água em locais diferentes não produz o mesmo impacto ambiental porque a disponibilidade hídrica e a demanda de água são diferentes para cada local.</P>
+
+                    <P>A avaliação da escassez hídrica fornece informações porque relaciona a oferta com a demande de água. Isso possibilita fazer a gestão do recurso com maior precisão, sabendo o quanto de água há disponível.</P>
                 </BlockText>
             </Card>
+
+            </Flex>
+
+            <NewH3>Estudo de Caso: Avaliação do uso da água pela produção animal na bacia hidrográfica do Lajeado Tacongava, região nordeste do estado do Rio Grande do Sul</NewH3>
         </Section>
     )
 }
