@@ -69,10 +69,13 @@ export default function ProdutividadeHidrica() {
 
                 <H3>O que é Produtividade Hídrica?</H3>
 
-                <P>Razão entre o que é produzido a quantidade de água consumida para este fim.</P>
-                <P>O método considera água consumida, sendo ela:</P>
-                <P>Água verde: Evapotransipração</P>
-                <P>Água técnica (azul), ex: dessedentação, limpeza, refrgeração</P>
+                <P>Razão entre o produto (ex. carne, leite, ovos, etc.) e a quantidade de água consumida.
+                O método considera água consumida como sendo:</P>
+
+                <P>Água verde, aquela que é consumida na forma de alimentos para os animais, ex. pasto, milho, soja, etc. É calculada a partir da evapotranspiração das culturas vegetais</P>
+
+
+                <P>Água azul, aquela consumida de fontes superficiais e subterrâneas para usos como: consumo dos animais, limpeza de instalações e equipamentos, irrigação, etc.</P>
                 </BlockText>
             </Card>
 
