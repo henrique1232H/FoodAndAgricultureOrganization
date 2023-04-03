@@ -98,8 +98,10 @@ export default function SectionTen() {
 
           <P>
             Produção animal e recursos hídricos: uso da água nas dimensões
-            quantitativa e qualitativa e cenários regulatórios e de consumo v.3{" "}
+            quantitativa e qualitativa e cenários regulatórios e de consumo v.3
           </P>
+            <a href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf" target="_blank"> http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf</a>
+
 
           <P>
             Produção animal e recursos hídricos: tecnologias para manejo de
@@ -119,6 +121,8 @@ export default function SectionTen() {
           >
             https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1048070/producao-animal-e-recursos-hidricos
           </a>
+
+          <P></P>
         </Block>
       </Grid>
 
