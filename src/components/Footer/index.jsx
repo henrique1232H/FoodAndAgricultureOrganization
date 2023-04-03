@@ -42,7 +42,12 @@ const P = styled.p`
   
 `;
 
-const Block = styled.div``;
+const Block = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 
 const Final = styled.div`
   display: flex;
