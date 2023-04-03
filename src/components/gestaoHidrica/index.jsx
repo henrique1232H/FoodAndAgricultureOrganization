@@ -35,6 +35,11 @@ const H3 = styled.h3`
     font-weight: 800;
     text-align: center;
     font-size: 3rem;
+
+    @media screen and (max-width: 40rem) {
+        height: auto;
+        padding-bottom: 2rem;
+    }
 `
 
 const Linha = styled.div`
