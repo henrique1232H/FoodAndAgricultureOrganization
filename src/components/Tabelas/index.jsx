@@ -27,11 +27,22 @@ const Table = styled.table`
 
   filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
 
+  @media screen and (max-width: 40rem) {
+    border: 0;
+  }
+
 
 `;
 const Tr = styled.tr`
   border: 1px solid #fff;
   border-radius: 2%;
+
+  @media screen and (max-width:40rem) {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625rem;
+    padding: 0;
+  }
 
   
 `;
@@ -40,11 +51,37 @@ const Td = styled.th`
   text-align: center;
   border: 1px solid #fff;
   font-size: 2rem;
+
+  @media screen and (max-width: 40rem) {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 1rem;
+    text-align: right;
+
+    ::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.9rem
+    }
+  }
 `;
 
 const Thead = styled.thead`
   border: 1px solid #fff;
   border-radius: 2%;
+
+  @media screen and (max-width:40rem) {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
 `;
 
 const TitleTable = styled.td`
@@ -55,6 +92,10 @@ const Abc = styled.th`
   font-size: 2rem;
   text-align: center;
   border: 1px solid #fff;
+
+  @media screen and (max-width: 40rem) {
+    border: none;
+  }
 `;
 
 const Title = styled.th`
