@@ -35,6 +35,11 @@ const Grid = styled.div`
 const P = styled.p`
   font-size: 1.5rem;
   color: #fff;
+
+  @media screen and (max-width: 40rem) {
+    width: 90%;
+  }
+  
 `;
 
 const Block = styled.div``;
