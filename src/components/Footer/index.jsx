@@ -36,6 +36,9 @@ const P = styled.p`
   font-size: 1.5rem;
   color: #fff;
 
+  @media screen and (max-width: 40rem) {
+    width: 0%;
+  }
   
 `;
 
@@ -102,7 +105,7 @@ export default function SectionTen() {
             Produção animal e recursos hídricos: uso da água nas dimensões
             quantitativa e qualitativa e cenários regulatórios e de consumo v.3
           </P>
-       
+            <a href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf" target="_blank"> http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf</a>
 
 
           <P>
