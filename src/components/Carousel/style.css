@@ -15,6 +15,27 @@
 
 }
 
+.imgCow1 {
+    background-image: url("../../assets/svg/animals/cowWaters.jpg");
+}
+
+.imgCow1,
+.imgPig1,
+.imgChicken1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.imgChicken1 {
+    background-image: url("../../assets/svg/animals/chicken.jpg");
+}
+
+.imgPig1 {
+    background-image: url("../../assets/svg/animals/pig-gc.jpg");
+}
+
 .carouselItem {
     height: 75vh;
 }

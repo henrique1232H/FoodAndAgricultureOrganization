@@ -2,7 +2,6 @@ import "./style.css"
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import styled from "styled-components";
-import cow from "../../assets/svg/animals/cowWaters.jpg";
 import pig from "../../assets/svg/animals/pig-gc.jpg"
 import chicken from "../../assets/svg/animals/chicken.jpg"
 
@@ -41,33 +40,32 @@ export function Caracteristica() {
             <Carousel controls={true} indicators={false} className="carousel">
                 <Carousel.Item className="carouselItem">
 
+                    <div className="imgCow1">
                     <figure className="figureImg">
 
-                        <Imgss src={cow} />
 
-                        <figcaption>
-                            
-                             <p>Sistema à pasto: 1085 vacas em lactação</p>
+                    <figcaption>
+    
+                        <p>Sistema à pasto: 1085 vacas em lactação</p>
 
-                            <p>Produção média de 5,055 litros de leite corrigido/cabeça.ano</p>
+                        <p>Produção média de 5,055 litros de leite corrigido/cabeça.ano</p>
 
+                        <p>Dieta (média): 93% volumoso; 7% concentrado</p>
 
-                            <p>Dieta (média): 93% volumoso; 7% concentrado</p>
+                        <p>Dieta: soja, milho</p>
 
-                            <p>Dieta: soja, milho</p>
-
-                            <p>Sistema semi-confinado: 246 vacas em lactação</p>
-                        </figcaption>
-                    </figure>
+                        <p>Sistema semi-confinado: 246 vacas em lactação</p>
+                    </figcaption>
+                </figure>
+                    </div>
     
                 </Carousel.Item>
                 
                 <Carousel.Item interval={3500} className="carouselItem">
 
+                    <div className="imgPig1">
+
                     <figure className="figureImg">
-
-                        <Imgss src={pig} />
-
 
                         <figcaption>
 
@@ -79,15 +77,17 @@ export function Caracteristica() {
 
                         </figcaption>
                     </figure>
+                    </div>
+
                     
                 </Carousel.Item>
 
                 <Carousel.Item interval={3500} className="carouselItem">
 
-                    <figure className="figureImg">
 
-                        <Imgss src={chicken} />
-                       
+                    <div className="imgChicken1">
+
+                    <figure className="figureImg">
 
                         <figcaption>
                             
@@ -96,6 +96,7 @@ export function Caracteristica() {
                             <p>Dieta: soja, milho</p>
                         </figcaption>
                     </figure>
+                    </div>
                     
                 </Carousel.Item>
             </Carousel>
