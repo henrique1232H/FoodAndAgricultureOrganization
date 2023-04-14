@@ -92,6 +92,7 @@ const Img = styled.img`
 const Figcaption = styled.figcaption`
     display: block;
     margin: 0 auto;
+    width: 90%;
 `
 
 

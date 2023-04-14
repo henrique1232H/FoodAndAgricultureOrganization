@@ -55,7 +55,7 @@ const Final = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-
+  
   @media screen and (max-width: 40rem) {
     gap: 1rem;
     display: grid;
