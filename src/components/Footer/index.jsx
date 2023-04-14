@@ -18,6 +18,7 @@ const Footer = styled.footer`
   justify-content: center;
   align-items: center;
   height: auto;
+  width: 100%;
 `;
 
 const Grid = styled.div`
@@ -77,6 +78,12 @@ const H2 = styled.h2`
     color: #fff;
 `
 
+const A = styled.a`
+  width: 80%;
+  color: #fff;
+  margin: 2rem 0;
+`
+
 export default function SectionTen() {
   return (
     <Footer>
@@ -111,27 +118,29 @@ export default function SectionTen() {
             Produção animal e recursos hídricos: uso da água nas dimensões
             quantitativa e qualitativa e cenários regulatórios e de consumo v.3
           </P>
-            <a href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf" target="_blank"> http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf</a>
+            <A 
+            href="http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1/ProducaoAnimalRecursosHidricos-v2.pdf" 
+            target="_blank"> http://ainfo.cnptia.embrapa.br/digital/bitstream/item/228641/1</A>
 
 
           <P>
             Produção animal e recursos hídricos: tecnologias para manejo de
             resíduos e uso eficiente dos insumos v.2
           </P>
-          <a
+          <A
             href="https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1116498/producao-animal-e-recursos-hidricos-tecnologias-para-manejo-de-residuos-e-uso-eficiente-dos-insumos"
             target="_blank"
           >
             https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1116498/producao-animal-e-recursos-hidricos-tecnologias-para-manejo-de-residuos-e-uso-eficiente-dos-insumos
-          </a>
+          </A>
 
           <P>Produção Animal e Recursos Hídricos v.1</P>
-          <a
+          <A
             href="https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1048070/producao-animal-e-recursos-hidricos"
             target="_blank"
           >
             https://www.embrapa.br/busca-de-publicacoes/-/publicacao/1048070/producao-animal-e-recursos-hidricos
-          </a>
+          </A>
 
           <P></P>
         </Block>
