@@ -23,7 +23,7 @@ const Footer = styled.footer`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 2rem;
   background: linear-gradient(#0099ff, #00099f);
   padding: 4rem 5rem;
 
@@ -37,12 +37,13 @@ const P = styled.p`
   color: #fff;
 
   @media screen and (max-width: 40rem) {
-    width: 0%;
+    width: 100%;
   }
   
 `;
 
 const Block = styled.div`
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +56,7 @@ const Final = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 40rem) {
-    gap: 8rem;
+    gap: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr))
   }

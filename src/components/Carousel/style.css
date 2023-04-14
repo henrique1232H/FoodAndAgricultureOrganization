@@ -38,7 +38,8 @@
 }
 
 .carouselItem {
-    height: auto;
+    height:auto;
+    padding: 1rem;
 }
 
 
