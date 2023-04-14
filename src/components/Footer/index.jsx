@@ -37,7 +37,7 @@ const P = styled.p`
   color: #fff;
 
   @media screen and (max-width: 40rem) {
-    width: 100%;
+    width: 80%;
   }
   
 `;
