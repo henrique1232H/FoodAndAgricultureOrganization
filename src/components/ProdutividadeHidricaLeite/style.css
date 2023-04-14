@@ -35,12 +35,17 @@
     display: flex;
     justify-content: center;
     gap: 4rem;
-    padding-left: 7rem;
     flex-wrap: wrap;
 }
 
 @media (max-width:70rem) {
     .center, .end {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    .flexA {
+        gap: 1rem;
     }
 }

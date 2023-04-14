@@ -8,8 +8,11 @@
 
 .figCaptionFlex {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
+
+
 
 .none {
     gap: 1rem;
@@ -42,4 +45,10 @@
     }
 
     
+}
+
+@media screen and (max-width:40rem) {
+        .figCaptionFlex {
+            padding: 0 4rem;
+        }
 }
