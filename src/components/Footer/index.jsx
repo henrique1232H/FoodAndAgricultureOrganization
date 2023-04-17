@@ -54,12 +54,13 @@ const Block = styled.div`
 const Final = styled.div`
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   
   @media screen and (max-width: 40rem) {
-    gap: 1rem;
+    gap: 5rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr))
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr))
   }
 `;
 
@@ -71,6 +72,7 @@ const Img = styled.img`
   @media screen and (max-width: 40rem) {
     width: 50%;
     max-height: 15vh;
+    margin: 0 auto;
   }
 `;
 
