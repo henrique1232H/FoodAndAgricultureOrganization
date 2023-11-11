@@ -50,7 +50,7 @@ const Card = styled.div`
     height: auto;
     width: 100%;
     min-width: 10vw;
-    max-width: 70vw;
+    max-width: 80vw;
     background: #fff;
     border: none !important;
     padding: 4rem;
@@ -74,8 +74,8 @@ const Img = styled.img`
     display: block !important;
     margin: 0 auto 2rem auto !important ;
     height: 100vh;
-    min-height: 40vh;
-    max-height: 30vh;
+    min-height: 20vh;
+    max-height: 40vh;
     width: 100%;
     min-width: 50%;
     max-width: 120vw;
