@@ -32,11 +32,12 @@ const H2 = styled.h2`
 `
 
 const FlexAnimals = styled.div`
-     margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin: 4rem auto;
+    padding: 0 4rem;
 
     @media screen and (max-width: 50rem)   {
             flex-direction:  column;
@@ -48,6 +49,8 @@ const FlexAnimals = styled.div`
 const Card = styled.div`
     height: auto;
     width: 100%;
+    min-width: 10vw;
+    max-width: 70vw;
     background: #fff;
     border: none !important;
     padding: 4rem;
@@ -55,7 +58,13 @@ const Card = styled.div`
 
     :hover {
         margin: 0 4rem;
-    box-shadow: 0px 10px 14px 2px;
+        box-shadow: 0px 10px 14px 2px;
+    }
+
+    @media (max-width: 70rem) {
+        :hover {
+            margin: 0;
+        }
     }
 
 
