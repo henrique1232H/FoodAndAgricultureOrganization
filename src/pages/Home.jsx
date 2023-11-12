@@ -19,7 +19,7 @@ import Tabelas from "../components/Tabelas"
 export function Home() {
 
     return (
-        <div>
+        <main>
             <Heading />
 
             <Water />
@@ -48,6 +48,6 @@ export function Home() {
             <SectionSeven />
             <SectionTen />
 
-        </div>
+        </main>
     )
  }
