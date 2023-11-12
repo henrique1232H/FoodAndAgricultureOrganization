@@ -2,7 +2,7 @@ import styled from "styled-components";
 import "./style.css"
 
 const Div = styled.div`
-    height: 100vh;
+    height: auto;
 
     @media screen and (max-width: 50rem) {
         height: auto;
@@ -19,11 +19,10 @@ const DivText = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 4rem 3rem;
 
     @media screen and (max-width: 50rem) {
         width: 100%;
-        height: auto;
     }
 
 `
@@ -38,7 +37,8 @@ const H3 = styled.h3`
 
     @media screen and (max-width: 40rem) {
         height: auto;
-        padding-bottom: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
     }
 `
 
@@ -86,13 +86,13 @@ export default function Agua() {
                 <Paragrafos>
 
 
-                <P>•Ao medir o consumo, o produtor irá saber onde é mais ou menos eficiente no uso da água e poderá implementar boas práticas hídricas.</P>
+                <P>• Ao medir o consumo, o produtor irá saber onde é mais ou menos eficiente no uso da água e poderá implementar boas práticas hídricas.</P>
 
                 <P>• O desconhecimento da demanda hídrica da atividade pode comprometer sua continuidade.</P>
 
-                <P>•Ao <span className="weight">medir</span> o consumo de água, o <span className="weight"> produtor compreende os valores</span>  e pode implementar <span className="weight">boas práticas</span> para usar os recursos hídricos de forma mais eficiente.</P>
+                <P>• Ao <span className="weight">medir</span> o consumo de água, o <span className="weight"> produtor compreende os valores</span>  e pode implementar <span className="weight">boas práticas</span> para usar os recursos hídricos de forma mais eficiente.</P>
 
-                <P> •O  <span className="weight">desconhecimento da demanda hídrica</span> para as atividades pecuárias e eventos de escassez hídrica podem <span className="weight">comprometer a continuidade da atividade</span>, impactando economias e o abastecimento de alimentos.</P>
+                <P> • O  <span className="weight">desconhecimento da demanda hídrica</span> para as atividades pecuárias e eventos de escassez hídrica podem <span className="weight">comprometer a continuidade da atividade</span>, impactando economias e o abastecimento de alimentos.</P>
 
                 </Paragrafos>
 
