@@ -1,19 +1,51 @@
-import "./style.css"
+import "./style.css";
+import styled from "styled-components";
+
+const Text = styled.div`
+     display: flex;
+    justify-content: center;
+
+`
+
+const ImgDiv = styled.div`
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
+const H1Heading = styled.h1`
+    color: #fff;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    font-size: 5rem;
+    text-shadow: 0px 4px 4px #000000;
+    line-height: 5.872rem;
+
+    @media (max-width: 50rem) {
+        width: 50%;
+        font-size: 4rem;
+}
+
+`
 
 export function Heading() {
 
     return (
 
-        <div className="img">
+        <ImgDiv className="img">
             
 
-        <div className="text">
+        <Text>
 
-            <h1 className="h1Heading">Uso da água na produção animal Produtividade Hídrica e Escassez Hídrica</h1>
+            <H1Heading>Uso da água na produção animal Produtividade Hídrica e Escassez Hídrica</H1Heading>
 
-        </div>
+        </Text>
 
-        </div>
+        </ImgDiv>
 
     )
 }
