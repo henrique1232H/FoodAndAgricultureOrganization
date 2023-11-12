@@ -47,7 +47,7 @@ const Card = styled.div`
     height: auto;
     width: 100%;
     min-width: 10vw;
-    max-width: 60vw;
+    max-width: 80vw;
     background: #fff;
     border: none !important;
     padding: 4rem;
