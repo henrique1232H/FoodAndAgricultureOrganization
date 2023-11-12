@@ -7,15 +7,12 @@ import chickens from "../../assets/svg/animals/chicken.jpg"
 import styled from "styled-components";
 
 const Section = styled.section`
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
 
-    @media screen and (max-width: 50rem) {
-        height: auto;
-    }
 `
 const Flex = styled.div`
     display: flex;
@@ -37,7 +34,7 @@ const FlexAnimals = styled.div`
     align-items: center;
     gap: 2rem;
     margin: 4rem auto;
-    padding: 0 4rem;
+    padding:  0 4rem;
 
     @media screen and (max-width: 50rem)   {
             flex-direction:  column;
@@ -50,7 +47,7 @@ const Card = styled.div`
     height: auto;
     width: 100%;
     min-width: 10vw;
-    max-width: 80vw;
+    max-width: 60vw;
     background: #fff;
     border: none !important;
     padding: 4rem;
@@ -63,7 +60,7 @@ const Card = styled.div`
 
     @media (max-width: 70rem) {
         :hover {
-            margin: 0;
+            margin: 10rem;
         }
     }
 
@@ -77,9 +74,16 @@ const Img = styled.img`
     min-height: 20vh;
     max-height: 40vh;
     width: 100%;
-    min-width: 50%;
-    max-width: 120vw;
+    min-width: 10vw;
+    max-width: 70vw;
     box-shadow: 4px 4px 24px 3px #ccc;
+
+    @media (max-width:70rem) {
+        min-height: 10vh;
+        max-height: 30vh;
+        min-width: 20vw;
+        max-width: 80vw;
+    }
 `
 
 const H3 = styled.h3`
