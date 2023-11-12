@@ -26,7 +26,9 @@ const H1Heading = styled.h1`
     line-height: 5.872rem;
 
     @media (max-width: 50rem) {
-        width: 50%;
+        width: 100%;
+        min-width: 10vw;
+        max-width: 70%;
         font-size: 4rem;
 }
 
