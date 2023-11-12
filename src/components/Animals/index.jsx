@@ -25,7 +25,7 @@ const Flex = styled.div`
 const H2 = styled.h2`
     text-align: center;
     font-weight: 800;
-    margin: 0 4rem;
+    margin: 1rem 4rem;
 `
 
 const FlexAnimals = styled.div`
