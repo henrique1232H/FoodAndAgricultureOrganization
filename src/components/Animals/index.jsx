@@ -60,7 +60,7 @@ const Card = styled.div`
 
     @media (max-width: 70rem) {
         :hover {
-            margin: 10rem;
+            margin: 0rem;
         }
     }
 
