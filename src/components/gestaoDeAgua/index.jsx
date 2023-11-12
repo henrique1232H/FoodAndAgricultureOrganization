@@ -39,6 +39,7 @@ const P = styled.p`
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
     text-align: justify;
+    color: #153C52;
 `
 
 
